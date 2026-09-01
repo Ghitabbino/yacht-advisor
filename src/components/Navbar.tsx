@@ -33,7 +33,7 @@ export default function Navbar() {
           aria-label="Yacht Advisor - Chi siamo"
         >
           <span className="flex items-center gap-3">
-            <img src="/yacht-advisor/rosa-venti.svg" alt="Chi siamo" className="w-10 h-10 md:w-12 md:h-12 opacity-90 group-hover:opacity-100 group-hover:scale-105 transition" />
+            <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-14 h-14 md:w-16 md:h-16 opacity-90 group-hover:rotate-180 transition-transform duration-700" />
             <span className="font-luxury text-[24px] md:text-[32px] font-black tracking-[0.42em] text-[#020817] leading-none">
               YACHT<span className="text-[#D4AF37]"> ADVISOR</span>
             </span>
