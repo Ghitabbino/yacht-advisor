@@ -80,17 +80,14 @@ export default function EnHome() {
           </div>
 
           <div className="space-y-6 text-[17px] leading-[1.85] font-light text-gray-600 max-w-3xl mx-auto">
-            <p className="text-xl leading-relaxed text-[#0F172A] font-light text-center italic border-l-0 md:border-l-2 md:border-[#D4AF37] md:pl-8 md:text-left">
-              &ldquo;Every owner is unique. The right solution starts from their needs, not from a catalogue.&rdquo;
+            <p>
+              Purchasing a yacht represents a significant investment, with a wide range of vessels available on the market, each characterised by specific construction properties and intended use. Often, the prospective owner does not possess the skills and knowledge necessary to make a choice that perfectly fits their lifestyle and expectations in the nautical field.
             </p>
             <p>
-              There is no perfect yacht in absolute terms. There is the yacht that fits your programme — people on board, areas, range, way of life at sea. <span className="text-[#0F172A] font-medium">That is why we always start by listening</span>: how you use the boat, what disappointed you, what you are truly looking for.
-            </p>
-            <p>
-              Only after understanding your needs do we compare models, yards and configurations with technical verification, comparable data and no conflicts. <span className="text-[#0F172A] font-medium">We present a few options, reasoned and defensible</span>, not a list of hulls to sell.
+              Moreover, crew management can be complex, and a wrong choice or inefficient crew management can significantly compromise the pleasure of using the yacht.
             </p>
             <p className="text-[#0F172A] font-normal">
-              Yacht Advisor works this way in every area — selection, crew, sale, charter: your needs first, then the solution tailored to you, with discretion and independence.
+              Yacht Advisor was created to bridge this gap: first we understand your needs, then we indicate the tailored solution, with independence, documented verification and discretion.
             </p>
           </div>
         </div>
@@ -169,23 +166,23 @@ export default function EnHome() {
           <div className="grid md:grid-cols-3 gap-10 md:gap-8">
             <div className="text-center">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">01</div>
-              <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Requirements analysis</h3>
-              <p className="text-sm leading-relaxed font-light text-gray-600">We capture programme of use, operational constraints and preferences. Objective criteria are defined before any option is assessed.</p>
+              <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">In-depth needs analysis</h3>
+              <p className="text-sm leading-relaxed font-light text-gray-600">Our operating approach is founded on an in-depth analysis of our clients’ needs, expectations and requirements. Through dedicated interviews, active listening and reconstruction of your cruising programme — people on board, areas, duration, onboard habits and operational constraints — we define objective, measurable and shared criteria before assessing any option. Every relevant detail is considered, from layout preferences to time management on board, because nothing is proposed without a thorough understanding of your way of life at sea and what serene cruising truly means to you.</p>
             </div>
             <div className="text-center md:border-x md:border-gray-200 md:px-8">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">02</div>
-              <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Independent verification</h3>
-              <p className="text-sm leading-relaxed font-light text-gray-600">No commissions from yards or brokers. Every recommendation is documented, compared and solely in your interest.</p>
+              <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Independent, documented verification</h3>
+              <p className="text-sm leading-relaxed font-light text-gray-600">We operate with no commissions from yards or brokers and no sales mandates: our independence is substantive, not declared. Every recommendation results from in-depth technical verification, systematic comparison of alternatives, analysis of real comparables, examination of documentation, maintenance history and cross-checked sources. Each recommendation is documented, reasoned point by point and solely in your interest, with full transparency on limits, risks and discarded alternatives, so that every choice is understandable, defensible and free of surprises.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">03</div>
-              <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Discretion</h3>
-              <p className="text-sm leading-relaxed font-light text-gray-600">Information and negotiations handled discreetly. Timing, identity and content remain under your control.</p>
+              <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Discretion and continuity</h3>
+              <p className="text-sm leading-relaxed font-light text-gray-600">Information, identity, timing and negotiation content remain under your control, handled with absolute discretion, as in leading professional firms. The same commitment to utmost client satisfaction, the same care for detail and the same continuity of oversight are applied to all our other services — yacht selection, crew management, sale assistance and charter management — with identical methodological rigour, traceability and fiduciary protection at every stage.</p>
             </div>
           </div>
 
           <p className="mt-14 text-center text-sm italic font-light text-gray-500 max-w-2xl mx-auto">
-            Same standard in every engagement: verifiable data, alternatives compared, traceable choice.
+            A consistent method, applied with the same care and depth to every engagement: verifiable data, alternatives compared with method, traceable and defensible choice over time, for results that last beyond the moment of purchase.
           </p>
         </div>
       </section>

@@ -75,17 +75,14 @@ export default function Home() {
           </div>
 
           <div className="space-y-6 text-[17px] leading-[1.85] font-light text-gray-600 max-w-3xl mx-auto">
-            <p className="text-xl leading-relaxed text-[#0F172A] font-light text-center italic border-l-0 md:border-l-2 md:border-[#D4AF37] md:pl-8 md:text-left">
-              &ldquo;Ogni armatore è unico. La soluzione giusta nasce dai suoi bisogni, non dal catalogo.&rdquo;
+            <p>
+              L&apos;acquisto di uno yacht rappresenta un investimento significativo, con una vasta gamma di imbarcazioni disponibili sul mercato, ognuna caratterizzata da specifiche proprietà costruttive e finalità d&apos;uso. Spesso, il potenziale armatore non possiede le competenze e le conoscenze necessarie per effettuare una scelta che si adatti perfettamente al proprio stile di vita e alle proprie aspettative in ambito nautico.
             </p>
             <p>
-              Non esiste lo yacht perfetto in assoluto. Esiste lo yacht coerente con il vostro programma — persone a bordo, aree, autonomia, modo di vivere il mare. <span className="text-[#0F172A] font-medium">Per questo partiamo sempre dall&apos;ascolto</span>: come usate la barca, cosa vi ha deluso, cosa cercate davvero.
-            </p>
-            <p>
-              Solo dopo aver compreso le esigenze, confrontiamo modelli, cantieri e configurazioni con verifica tecnica, dati comparabili e assenza di conflitti. <span className="text-[#0F172A] font-medium">Indichiamo poche opzioni, motivate e difendibili</span>, non una lista di scafi da vendere.
+              Inoltre, la gestione degli equipaggi può risultare complessa, e una scelta errata o una gestione inefficiente dell&apos;equipaggio può compromettere significativamente il piacere di utilizzo dello yacht.
             </p>
             <p className="text-[#0F172A] font-normal">
-              Yacht Advisor lavora così in ogni ambito — selezione, equipaggio, vendita, charter: prima i vostri bisogni, poi la soluzione adatta a voi, con riservatezza e indipendenza.
+              Yacht Advisor nasce per colmare questa distanza: prima comprendiamo i vostri bisogni, poi indichiamo la soluzione su misura, con indipendenza, verifiche documentate e riservatezza.
             </p>
           </div>
         </div>
@@ -164,23 +161,23 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-10 md:gap-8">
             <div className="text-center">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">01</div>
-              <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Analisi dei requisiti</h3>
-              <p className="text-sm leading-relaxed font-light text-gray-600">Rileviamo programma d&apos;uso, vincoli operativi e preferenze. Definiamo criteri oggettivi prima di valutare qualsiasi opzione.</p>
+              <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Analisi approfondita dei bisogni</h3>
+              <p className="text-sm leading-relaxed font-light text-gray-600">Il nostro approccio operativo si fonda sull’analisi approfondita delle esigenze, delle aspettative e dei bisogni dei nostri clienti. Attraverso colloqui dedicati, ascolto attivo e ricostruzione del vostro programma di navigazione — persone a bordo, aree frequentate, durata delle crociere, abitudini e vincoli operativi — definiamo criteri oggettivi, misurabili e condivisi prima di valutare qualsiasi opzione. Ogni dettaglio rilevante viene considerato, dalle preferenze di layout alla gestione del tempo a bordo, perché nulla viene proposto senza aver compreso a fondo il vostro modo di vivere il mare e ciò che per voi significa davvero navigare con serenità.</p>
             </div>
             <div className="text-center md:border-x md:border-gray-200 md:px-8">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">02</div>
-              <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Verifica indipendente</h3>
-              <p className="text-sm leading-relaxed font-light text-gray-600">Nessuna provvigione da cantieri o broker. Ogni indicazione è documentata, confrontata e orientata esclusivamente al vostro interesse.</p>
+              <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Verifica indipendente e documentata</h3>
+              <p className="text-sm leading-relaxed font-light text-gray-600">Operiamo senza provvigioni da cantieri o broker e senza mandati di vendita: la nostra indipendenza è sostanziale, non dichiarata. Ogni indicazione è il risultato di verifiche tecniche approfondite, confronto sistematico tra alternative, analisi di comparabili reali, esame di documentazione, storico manutentivo e fonti incrociate. Ogni raccomandazione è documentata, motivata punto per punto e orientata esclusivamente alla tutela del vostro interesse, con piena trasparenza su limiti, rischi e alternative scartate, così da rendere ogni scelta comprensibile, difendibile e priva di sorprese.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">03</div>
-              <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Riservatezza</h3>
-              <p className="text-sm leading-relaxed font-light text-gray-600">Informazioni e negoziazioni gestite con discrezione. Tempi, identità e contenuti restano sotto il vostro controllo.</p>
+              <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Riservatezza e continuità</h3>
+              <p className="text-sm leading-relaxed font-light text-gray-600">Informazioni, identità, tempi e contenuti delle negoziazioni restano sotto il vostro controllo, gestiti con discrezione assoluta e con la riservatezza tipica dei grandi studi professionali. Lo stesso impegno per la massima soddisfazione del cliente, la stessa cura per il dettaglio e la stessa continuità di presidio sono applicati a tutti gli altri nostri servizi — selezione dell’imbarcazione, gestione dell’equipaggio, assistenza alla vendita e gestione charter — con identico rigore metodologico, stessa tracciabilità dei passaggi e medesima tutela fiduciaria in ogni fase.</p>
             </div>
           </div>
 
           <p className="mt-14 text-center text-sm italic font-light text-gray-500 max-w-2xl mx-auto">
-            Stesso criterio in ogni incarico: dati verificabili, alternative confrontate, scelta tracciabile.
+            Un metodo costante, applicato con la stessa cura e la stessa profondità in ogni incarico: dati verificabili, alternative confrontate con metodo, scelta tracciabile e difendibile nel tempo, per risultati che durano oltre il momento dell’acquisto.
           </p>
         </div>
       </section>
