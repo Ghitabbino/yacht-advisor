@@ -11,24 +11,24 @@ export default function Page() {
   return (
     <ServicePageLayout
       eyebrow="Crew Management"
-      title="Service continuity, not improvisation."
-      subtitle="Quality is assessed in day-to-day operation."
-      intro="Crew affects privacy, safety and service regularity. We assess profiles and processes so management is predictable and aligned with your expectations."
+      title="Excellence in service comes through excellence in people."
+      subtitle="Crew Management"
+      intro="Every owner is unique. By understanding your needs, we find the tailored solution."
       blocks={[
         {
-          title: "Profile selection",
-          text: "We assess technical skills, verifiable references, interpersonal fit and compatibility with your context. Structured screening, international network, no bulk CV sending.",
+          title: "Elite Recruitment",
+          text: "We select international professionals who possess not only technical skills but also the discretion and education required by the luxury sector. Structured screening, international network, no bulk CV sending.",
         },
         {
-          title: "Service standards",
-          text: "We define onboard procedures — hospitality, service, housekeeping, safety, communication — consistent with your habits. Language and cultural aspects are considered in crew composition.",
+          title: "Training & Protocols",
+          text: "We implement rigorous service protocols to ensure every detail — from table service to cabin management — is impeccable and timeless. Procedures are defined consistently with your habits, with language and cultural aspects considered in crew composition.",
         },
         {
-          title: "Ongoing management",
-          text: "Contracts, rotations, payroll, insurance, certification and replacements are handled on a continuous basis. If issues arise, we intervene discreetly without burden on you.",
+          title: "Logistical & Contractual Management",
+          text: "We handle bureaucratic management, shifts, rotations and contracts, allowing you to enjoy the yacht without any management worries. Contracts, payroll, insurance and replacements are handled continuously, with discreet intervention if needed.",
         },
       ]}
-      closing="Outcome: stable, discreet service that protects your time and privacy."
+      closing="Stable, discreet service that protects your time and privacy."
       backHref="/en#services"
       backLabel="← All Services"
       ctaHref="/en#contact"

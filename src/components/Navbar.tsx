@@ -32,13 +32,13 @@ export default function Navbar() {
           className="flex flex-col items-center text-center group"
           aria-label="Yacht Advisor - Chi siamo"
         >
-          <span className="flex items-center gap-2.5">
+          <span className="flex items-center gap-3">
             <img src="/rosa-venti.svg" alt="Chi siamo" className="w-10 h-10 md:w-12 md:h-12 opacity-90 group-hover:opacity-100 group-hover:scale-105 transition" />
-            <span className="font-luxury text-[20px] md:text-[26px] font-bold tracking-[0.35em] text-[#020817] leading-none">
-              YACHT ADVISOR
+            <span className="font-luxury text-[24px] md:text-[32px] font-black tracking-[0.42em] text-[#020817] leading-none">
+              YACHT<span className="text-[#D4AF37]"> ADVISOR</span>
             </span>
           </span>
-          <span className="text-[10px] md:text-[11px] uppercase tracking-[0.4em] text-gray-400 mt-2 font-light">
+          <span className="text-[10px] md:text-[11px] uppercase tracking-[0.45em] text-[#0F172A] mt-2.5 font-semibold">
             Your happiness is our job
           </span>
         </Link>

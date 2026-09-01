@@ -11,24 +11,24 @@ export default function Page() {
   return (
     <ServicePageLayout
       eyebrow="Charter Management"
-      title="Sustainable setup, not just occupancy."
-      subtitle="Compatibility between charter use and asset protection."
-      intro="Charter can cover part of the costs and keep the unit active, but it requires selection and processes. We set it up to be compatible with standards, availability and value protection."
+      title="We turn your passion into a profitable investment."
+      subtitle="Charter Management"
+      intro="Every owner is unique. By understanding your needs, we find the tailored solution."
       blocks={[
         {
-          title: "Strategy & pricing",
-          text: "We analyse positioning, seasonality and competition to define rates, calendar and areas. Your weeks of use and maintenance intervals are factored in.",
+          title: "Profitability Optimisation",
+          text: "We analyse the global market, competitive positioning and seasonality to define the most effective pricing strategy. We assess calendar, operating areas and maintenance intervals to maximise return on investment while preserving your weeks of use and protecting the unit's value over time.",
         },
         {
-          title: "Selective distribution",
-          text: "We engage only charter brokers with verified reliability and channels consistent with the unit's standard. Each enquiry is assessed before acceptance.",
+          title: "International Promotion",
+          text: "We connect the yacht with the most exclusive clientele through a selected network of charter brokers and luxury platforms. Each enquiry is profiled and carefully evaluated to ensure a steady flow of high-level bookings consistent with the vessel's standard and your reputation.",
         },
         {
-          title: "Operating processes",
-          text: "Coordination of charter, maintenance, provisioning and housekeeping with defined procedures and reporting on costs and income. Ongoing control without burden on you.",
+          title: "Operational Management & Standards",
+          text: "We supervise every logistical aspect between charters — coordination of maintenance, provisioning, cleaning and crew preparation — ensuring vessel and crew meet impeccable standards for every guest. Standardised experience, continuous quality control and transparent reporting on costs and revenues: you see only the result.",
         },
       ]}
-      closing="Outcome: a programme that protects the unit, respects your time and makes the financial result transparent."
+      closing="A charter programme that protects the yacht, respects your time and turns a fixed cost into transparent return."
       backHref="/en#services"
       backLabel="← All Services"
       ctaHref="/en#contact"

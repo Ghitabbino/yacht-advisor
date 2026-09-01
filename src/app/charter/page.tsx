@@ -11,24 +11,24 @@ export default function Page() {
   return (
     <ServicePageLayout
       eyebrow="Gestione Charter"
-      title="Impostazione sostenibile, non solo occupazione."
-      subtitle="Compatibilità tra utilizzo charter e tutela dell'asset."
-      intro="Il charter può coprire parte dei costi e mantenere l'unità attiva, ma richiede selezione e processi. Impostiamo l'attività perché sia compatibile con standard, disponibilità e protezione del valore."
+      title="Trasformiamo la vostra passione in un investimento redditizio."
+      subtitle="Gestione Charter"
+      intro="Ogni armatore è unico. Capendo i vostri bisogni, troviamo la soluzione su misura."
       blocks={[
         {
-          title: "Strategia e pricing",
-          text: "Analizziamo posizionamento, stagionalità e concorrenza per definire tariffe, calendario e aree. Consideriamo le settimane di vostro uso e gli intervalli di manutenzione.",
+          title: "Ottimizzazione della Redditività",
+          text: "Analizziamo il mercato globale, il posizionamento competitivo e la stagionalità per definire la strategia tariffaria più efficace. Valutiamo calendario, aree di operatività e intervalli di manutenzione per massimizzare il ritorno sull'investimento preservando le vostre settimane di utilizzo e la tutela del valore dell'unità nel tempo.",
         },
         {
-          title: "Distribuzione selettiva",
-          text: "Attiviamo solo broker charter con affidabilità verificata e canali coerenti con lo standard dell'unità. Ogni richiesta è valutata prima dell'accettazione.",
+          title: "Promozione Internazionale",
+          text: "Connettiamo lo yacht con la clientela più esclusiva attraverso una rete selezionata di broker di charter e piattaforme di lusso. Ogni richiesta viene profilata e valutata con attenzione per garantire un flusso costante di prenotazioni di alto livello, coerenti con lo standard dell'imbarcazione e con la vostra reputazione.",
         },
         {
-          title: "Processi operativi",
-          text: "Coordinamento tra charter, manutenzione, approvvigionamento e pulizia, con procedure definite e report su costi e ricavi. Controllo continuo senza aggravio per voi.",
+          title: "Gestione Operativa e Standard",
+          text: "Supervisioniamo ogni aspetto logistico tra un charter e l'altro — coordinamento tra manutenzione, provisioning, pulizia e preparazione dell'equipaggio — assicurando che imbarcazione ed equipaggio rispettino standard impeccabili per ogni ospite. Standardizzazione dell'esperienza, controllo qualità continuo e reportistica trasparente su costi e ricavi: voi vedete solo il risultato.",
         },
       ]}
-      closing="Obiettivo: un programma che tutela l'unità, rispetta i vostri tempi e rende trasparente il risultato economico."
+      closing="Un programma charter che protegge lo yacht, rispetta i vostri tempi e trasforma un costo fisso in un rendimento trasparente."
     />
   );
 }

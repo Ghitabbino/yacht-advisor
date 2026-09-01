@@ -11,24 +11,24 @@ export default function Page() {
   return (
     <ServicePageLayout
       eyebrow="Yacht Selection"
-      title="Verified choice, not commercial push."
-      subtitle="Criteria defined before options."
-      intro="We start from your actual programme of use — people on board, areas, range, frequency — and define requirements. Only then do we compare models and yards, with no ties to brokers or builders."
+      title="Finding the perfect vessel is not a matter of luck, but of precision."
+      subtitle="Yacht Selection"
+      intro="Every owner is unique. By understanding your needs, we find the tailored solution."
       blocks={[
         {
-          title: "Requirements definition",
-          text: "We capture real use data and operational constraints: volumes, hull, range, layout, equipment. Incoherent options are excluded before any comparison.",
+          title: "Lifestyle Analysis",
+          text: "We don't just look at models. We analyse how you want to live at sea — family cruising, social events or extreme adventure — reconstructing habits, people on board and expectations. This allows us to identify the hull that fits your rhythm, and not vice versa, excluding incoherent options before any comparison and protecting time and investment.",
         },
         {
-          title: "Due diligence & comparison",
-          text: "We assess naval architecture, propulsion, stabilisation, systems and build quality. Models are benchmarked — including less exposed yards — checking recalls, support and value retention.",
+          title: "Technical Verification & Performance",
+          text: "We rigorously assess engine efficiency, hull stability and behaviour, integration of onboard technological systems and overall build quality. We verify maintenance history, equipment, yard support and value retention over time to guarantee a reliable, safe vessel defensible as a long-term investment.",
         },
         {
-          title: "Protected negotiation",
-          text: "We handle the deal, surveys, sea trials and contracts on a fiduciary basis. Terms, equipment and warranties are documented before commitment.",
+          title: "Budget Optimisation",
+          text: "We support you in negotiating with brokers and builders on a fiduciary basis, handling surveys, sea trials and contracts. Every detail — equipment, warranties, conditions — is put in writing before signing, so the investment value mirrors your market expectations without surprises.",
         },
       ]}
-      closing="Outcome: a traceable, defensible choice with no surprises after purchase."
+      closing="A conscious choice, with no surprises after purchase."
       backHref="/en#services"
       backLabel="← All Services"
       ctaHref="/en#contact"

@@ -11,24 +11,24 @@ export default function Page() {
   return (
     <ServicePageLayout
       eyebrow="Gestione Equipaggi"
-      title="Continuità di servizio, non improvvisazione."
-      subtitle="La qualità si valuta nella gestione quotidiana."
-      intro="L'equipaggio incide su riservatezza, sicurezza e regolarità del servizio. Valutiamo profili e processi perché la gestione sia prevedibile e allineata alle vostre aspettative."
+      title="L'eccellenza del servizio passa attraverso l'eccellenza delle persone."
+      subtitle="Gestione Equipaggi"
+      intro="Ogni armatore è unico. Capendo i vostri bisogni, troviamo la soluzione su misura."
       blocks={[
         {
-          title: "Selezione dei profili",
-          text: "Valutiamo competenze tecniche, referenze verificabili, idoneità relazionale e compatibilità con il vostro contesto. Screening strutturato, rete internazionale, nessun invio massivo di curricula.",
+          title: "Recruitment di Elite",
+          text: "Selezioniamo professionisti internazionali che possiedano non solo competenze tecniche certificate e referenze verificabili, ma anche la discrezione, l'educazione e l'intelligenza relazionale richieste dal settore luxury. Ogni profilo viene valutato per compatibilità con il vostro contesto familiare e con gli ospiti, attraverso screening rigoroso e rete internazionale, senza invio massivo di curricula.",
         },
         {
-          title: "Standard di servizio",
-          text: "Definiamo procedure di bordo — accoglienza, servizio, gestione cabine, sicurezza, comunicazione — coerenti con le vostre abitudini. Lingua e aspetti culturali sono considerati nella composizione dell'equipaggio.",
+          title: "Formazione e Protocolli",
+          text: "Implementiamo protocolli di servizio rigorosi e su misura — accoglienza, mise en place, servizio in tavola, gestione cabine, sicurezza e comunicazione — affinché ogni dettaglio sia impeccabile, coerente e senza tempo. Definiamo standard chiari, lingua e aspetti culturali inclusi, per un servizio continuo e allineato alle vostre aspettative.",
         },
         {
-          title: "Gestione operativa",
-          text: "Contratti, turnazioni, retribuzioni, coperture assicurative, certificazioni e sostituzioni sono gestiti continuativamente. In caso di criticità interveniamo con discrezione, senza carico per voi.",
+          title: "Gestione Logistica e Contrattuale",
+          text: "Ci occupiamo continuativamente della gestione burocratica, dei turni, delle rotazioni, dei contratti, delle buste paga, delle assicurazioni e delle certificazioni, permettendovi di godere lo yacht senza alcuna preoccupazione gestionale. In caso di necessità, interveniamo con discrezione e rapidità per sostituzioni o criticità, senza alcun carico per voi.",
         },
       ]}
-      closing="Obiettivo: un servizio stabile e riservato, che tutela tempo e privacy."
+      closing="Un servizio stabile e riservato, che tutela tempo e privacy."
     />
   );
 }

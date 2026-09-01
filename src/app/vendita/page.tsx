@@ -11,24 +11,24 @@ export default function Page() {
   return (
     <ServicePageLayout
       eyebrow="Assistenza alla Vendita"
-      title="Impostazione misurata, non fretta."
-      subtitle="Posizionamento corretto prima dell'esposizione."
-      intro="Il mercato dell'usato premia l'impostazione corretta. Valutiamo comparabili, tempistiche e canale per evitare svalutazioni ed esposizioni non efficaci."
+      title="Valorizziamo il vostro investimento con professionalità e discrezione."
+      subtitle="Assistenza alla Vendita"
+      intro="Ogni armatore è unico. Capendo i vostri bisogni, troviamo la soluzione su misura."
       blocks={[
         {
-          title: "Scelta del canale",
-          text: "Individuiamo il broker con competenze comprovate su tipologia, area e fascia di prezzo. Mandato e condizioni sono negoziati con tutela della vostra posizione.",
+          title: "Selezione del Broker Ideale",
+          text: "Non lasciamo nulla al caso. Analizziamo comparabili reali, posizionamento e tempistiche per identificare i broker più qualificati e specializzati nel mercato di riferimento della vostra imbarcazione, per tipologia, area e fascia di prezzo. Garantiamo una rappresentazione d'eccellenza, l'accesso ai canali più esclusivi e la negoziazione di mandato e condizioni a tutela della vostra posizione.",
         },
         {
-          title: "Preparazione e documentazione",
-          text: "Documentazione tecnica, inventario e pricing basati su dati di mercato comparabili. Presentazione professionale e coerente fin dall'ingresso sul mercato.",
+          title: "Marketing di Prestigio",
+          text: "Curiamo ogni dettaglio dell'esposizione con rigore consulenziale: fotografia e video professionali di alta qualità, descrizioni tecniche ineccepibili, inventario documentato e promozione mirata sui principali portali nautici di lusso. Presentiamo lo yacht al meglio fin dal primo giorno, con pricing basato su dati di mercato comparabili e coerente con la sua valorizzazione.",
         },
         {
-          title: "Negoziazione e chiusura",
-          text: "Filtro delle richieste, gestione di visite e offerte, conduzione della negoziazione e supervisione di perizie e contratti. Riservatezza sull'identità, se richiesta, fino alla chiusura.",
+          title: "Gestione della Negoziazione",
+          text: "Supportiamo l'armatore in ogni fase del processo di vendita — filtro delle richieste, gestione di visite e offerte, conduzione della negoziazione e supervisione di perizie, contratti e closing — assicurando la massima tutela degli interessi, trasparenza sui passaggi e riservatezza sull'identità fino alla chiusura, se richiesta.",
         },
       ]}
-      closing="Obiettivo: un realizzo congruo, con processo tracciato e riservato."
+      closing="Un realizzo congruo, con processo tracciato e riservato."
     />
   );
 }

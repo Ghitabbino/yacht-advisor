@@ -11,24 +11,24 @@ export default function Page() {
   return (
     <ServicePageLayout
       eyebrow="Sales Advisory"
-      title="Measured preparation, not haste."
-      subtitle="Correct positioning before market exposure."
-      intro="The brokerage market rewards correct preparation. We assess comparables, timing and channel to avoid undervaluation and ineffective exposure."
+      title="We enhance your investment with professionalism and discretion."
+      subtitle="Sales Advisory"
+      intro="Every owner is unique. By understanding your needs, we find the tailored solution."
       blocks={[
         {
-          title: "Channel selection",
-          text: "We identify the broker with proven competence in that type, region and price bracket. Mandate and terms are negotiated to protect your position.",
+          title: "Ideal Broker Selection",
+          text: "We leave nothing to chance. We identify the most qualified brokers specialised in your vessel's reference market, ensuring excellent representation and access to the most exclusive channels.",
         },
         {
-          title: "Preparation & documentation",
-          text: "Technical documentation, inventory and pricing based on comparable market data. Professional, coherent presentation from day one on the market.",
+          title: "Prestige Marketing",
+          text: "We curate every detail of the exposure: from high-quality professional photography to targeted promotion on leading luxury yachting portals, to present the yacht in the most attractive way possible.",
         },
         {
-          title: "Negotiation & closing",
-          text: "We filter enquiries, manage viewings and offers, lead the negotiation and oversee surveys and contracts. Identity remains private if requested, until closing.",
+          title: "Negotiation Management",
+          text: "We support the owner at every stage of the sale process, from handling offers to concluding the contract, ensuring utmost protection of interests and discretion.",
         },
       ]}
-      closing="Outcome: a fair return, with a traceable and discreet process."
+      closing="A fair return, with a traceable and discreet process."
       backHref="/en#services"
       backLabel="← All Services"
       ctaHref="/en#contact"

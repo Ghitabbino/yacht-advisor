@@ -1,4 +1,4 @@
 :HL["/yacht-advisor/_next/static/media/904be59b21bd51cb-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/yacht-advisor/_next/static/media/a273567b21a7c318-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/yacht-advisor/_next/static/css/7348976bc6186f81.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"charter","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"K3CQ72F98eyvj106UrYCz"}
+:HL["/yacht-advisor/_next/static/css/5f9b0266af994258.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"charter","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"kEpkcvR0CDsA4haqgll0q"}
