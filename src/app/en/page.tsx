@@ -131,21 +131,25 @@ export default function EnHome() {
               href="/en/selection"
               title="Yacht Selection"
               description="Comparative analysis of models and yards against your programme of use, with technical due diligence and value retention review."
+              cta="Learn more →"
             />
             <ServiceCard
               href="/en/crew"
               title="Crew Management"
               description="Assessment of profiles, references and operational fit, with service standards and contractual management."
+              cta="Learn more →"
             />
             <ServiceCard
               href="/en/sale"
               title="Sales Advisory"
               description="Market analysis, channel selection and negotiation with documentation and discretion."
+              cta="Learn more →"
             />
             <ServiceCard
               href="/en/charter"
               title="Charter Management"
               description="Strategy, distribution and operating processes for charter use consistent with standards and asset protection."
+              cta="Learn more →"
             />
           </div>
         </div>

@@ -2,9 +2,10 @@ type Props = {
   href: string;
   title: string;
   description: string;
+  cta?: string;
 };
 
-export default function ServiceCard({ href, title, description }: Props) {
+export default function ServiceCard({ href, title, description, cta = "Approfondisci →" }: Props) {
   return (
     <a
       href={href}
@@ -18,7 +19,7 @@ export default function ServiceCard({ href, title, description }: Props) {
         {description}
       </p>
       <span className="mt-7 text-center text-[10px] uppercase tracking-[0.22em] text-gray-500 group-hover:text-[#D4AF37] transition-colors font-semibold">
-        Approfondisci →
+        {cta}
       </span>
     </a>
   );
