@@ -40,12 +40,32 @@ export default function Page() {
               Ascolto dei bisogni, definizione di criteri oggettivi, due diligence tecnica e comparazione. Indichiamo poche opzioni, motivate e difendibili, non una lista di scafi da promuovere.
             </p>
           </div>
-          <div className="border-l-2 border-[#D4AF37]/70 pl-8 py-1">
-            <h2 className="font-luxury text-lg md:text-xl mb-3 tracking-wide">Curriculum</h2>
-            <p className="text-gray-400 leading-relaxed text-[14.5px] font-light">
-              In questa sezione inseriremo i profili del team. Inviateci i CV e li impagineremo con lo stesso rigore consulenziale del sito — foto, ruolo, esperienza, aree di competenza.
-            </p>
-            <p className="mt-4 text-[11px] uppercase tracking-[0.2em] text-[#D4AF37]">In attesa dei vostri curriculum</p>
+          <div className="border border-[#D4AF37]/20 rounded-xl bg-white/[0.04] p-6 md:p-8">
+            <div className="flex flex-col md:flex-row gap-6">
+              <div className="w-24 h-24 md:w-28 md:h-28 rounded-full bg-gradient-to-br from-[#D4AF37]/30 to-white/10 border border-[#D4AF37]/30 grid place-items-center text-[#D4AF37] text-2xl font-luxury shrink-0">SA</div>
+              <div className="flex-1">
+                <p className="text-[11px] tracking-[0.3em] uppercase text-[#D4AF37] font-semibold">Senior Advisor — Marketing Strategico e Operativo</p>
+                <h2 className="font-luxury text-xl md:text-2xl mt-1">Senior Advisor</h2>
+                <p className="text-[11px] tracking-[0.2em] uppercase text-gray-400 mt-1">Mandato fiduciario indipendente — Yacht Advisor</p>
+                <p className="text-gray-300 leading-relaxed text-[14px] font-light mt-4 italic">“Ogni armatore è unico. La mia missione è la sua piena soddisfazione.”</p>
+                <p className="text-gray-400 leading-relaxed text-[14px] font-light mt-4">
+                  Oltre 25 anni in multinazionali di diversi settori come Responsabile Marketing — brand strategy, go-to-market, sviluppo prodotto e team multiculturali — coltivando in parallelo la pratica velica (crociere d’altura, regate, oceaniche). Socio anziano dello <strong className="text-gray-200 font-normal">Studio Zanni e Associati</strong>, vi ha guidato il marketing strategico e operativo continuando a navigare. Da oltre 15 anni dedica l’attività esclusivamente alla nautica, implementando soluzioni su misura per la soddisfazione dei clienti.
+                </p>
+                <div className="mt-5 grid sm:grid-cols-2 gap-4 text-[13px]">
+                  <div>
+                    <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mb-1">Competenze chiave</p>
+                    <p className="text-gray-400 font-light leading-relaxed">Selezione imbarcazione • Due diligence tecnica • Marketing strategico/operativo • Gestione equipaggi • Vendita • Charter</p>
+                  </div>
+                  <div>
+                    <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mb-1">Formazione</p>
+                    <p className="text-gray-400 font-light">Master SADA — Marketing e Comunicazione</p>
+                    <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mt-3 mb-1">Lingue</p>
+                    <p className="text-gray-400 font-light">IT madrelingua • EN professionale • FR buono</p>
+                  </div>
+                </div>
+                <p className="mt-4 text-[11px] uppercase tracking-[0.2em] text-[#D4AF37]/80">Nome e foto su indicazione — base Genova / Palma</p>
+              </div>
+            </div>
           </div>
         </div>
 
