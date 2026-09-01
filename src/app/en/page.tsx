@@ -37,6 +37,7 @@ export default function EnHome() {
             Every owner is unique. We understand your needs and we find the tailored solution.<br className="hidden md:block" />
             <span className="text-white font-normal">Independent advice, no yard or broker ties</span>
           </p>
+          <p className="mt-4 text-[11px] tracking-[0.22em] uppercase text-white/55 font-light">Our mission is your complete satisfaction — our only KPI</p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#method"
@@ -87,7 +88,7 @@ export default function EnHome() {
               Moreover, crew management can be complex, and a wrong choice or inefficient crew management can significantly compromise the pleasure of using the yacht.
             </p>
             <p className="text-[#0F172A] font-normal">
-              Yacht Advisor was created to bridge this gap: first we understand your needs, then we indicate the tailored solution, with independence, documented verification and discretion.
+              Yacht Advisor was created to bridge this gap: first we understand your needs, then we indicate the tailored solution, with independence, documented verification and discretion — as a <em>single integrated team</em> alongside you, with global network and fiduciary protection. Our mission is your complete satisfaction.
             </p>
           </div>
         </div>

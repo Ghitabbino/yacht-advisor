@@ -32,6 +32,7 @@ export default function Home() {
             Ogni armatore è unico. Capiamo i vostri bisogni e troviamo la soluzione su misura.<br className="hidden md:block" />
             <span className="text-white font-normal">Consulenza indipendente, senza legami con cantieri o broker</span>
           </p>
+          <p className="mt-4 text-[11px] tracking-[0.22em] uppercase text-white/55 font-light">La nostra missione è la vostra piena soddisfazione — unico KPI</p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#metodo"
@@ -82,7 +83,7 @@ export default function Home() {
               Inoltre, la gestione degli equipaggi può risultare complessa, e una scelta errata o una gestione inefficiente dell&apos;equipaggio può compromettere significativamente il piacere di utilizzo dello yacht.
             </p>
             <p className="text-[#0F172A] font-normal">
-              Yacht Advisor nasce per colmare questa distanza: prima comprendiamo i vostri bisogni, poi indichiamo la soluzione su misura, con indipendenza, verifiche documentate e riservatezza.
+              Yacht Advisor nasce per colmare questa distanza: prima comprendiamo i vostri bisogni, poi indichiamo la soluzione su misura, con indipendenza, verifiche documentate e riservatezza — come <em>single integrated team</em> al vostro fianco, con rete globale e tutela fiduciaria. La nostra missione è la vostra piena soddisfazione.
             </p>
           </div>
         </div>
