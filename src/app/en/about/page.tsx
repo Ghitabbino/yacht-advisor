@@ -33,19 +33,19 @@ export default function Page() {
           <div className="w-16 h-px bg-[#D4AF37]/50 mx-auto mt-10 mb-10" aria-hidden />
         </div>
 
-        {/* Studio — rewritten for Yacht */}
+        {/* About — marketing professionals + lived owner/skipper/crew experience */}
         <div className="max-w-3xl mx-auto mb-14 text-left space-y-5 text-[14.5px] leading-relaxed font-light text-gray-300">
           <p>
-            <strong className="text-white font-normal">Yacht Advisor brings together a team of professionals</strong> whose skills and experience, gained alongside owners and companies across sectors, provide concrete answers to the questions of those who live at sea. An external contribution brings stimulus, verification and greater assurance — all the more effective when delivered by an <em className="text-[#D4AF37] not-italic">integrated TEAM</em>, not a single individual.
+            <strong className="text-white font-normal">We are marketing professionals with deep, lived experience in yachting.</strong> Not just yacht marketing: we have lived at sea as <em className="text-[#D4AF37] not-italic">owners, skippers and crew on numerous vessels</em> — sail and power, monohulls and multihulls — in the Mediterranean, Atlantic, Caribbean and Northern Europe. We know from the inside timing, costs, onboard dynamics, crew selection and management, maintenance, berthing and asset enhancement, because we have experienced them first-hand.
           </p>
           <p className="text-gray-400">
-            We operate in <strong className="text-gray-200 font-normal">integrated yachting consultancy</strong> — yacht selection, crew management, sales advisory and charter management — yet every engagement consistently takes into account the structural, operational and financial constraints of the owner and the cross-functional implications on board and ashore.
+            This dual expertise — <strong className="text-gray-200 font-normal">consulting rigour and life on board</strong> — stems from 25+ years in multinationals across sectors as Heads of Marketing, with a Master SADA in Marketing and Communication, and as Senior Partners at Studio Zanni e Associati for strategic and operational marketing, always continuing to sail. For over 15 years we have dedicated it entirely to yachting, transferring method, verification and business discipline to the world of yachting.
           </p>
           <p className="text-gray-400">
-            Contacts and experience built in international contexts and across sectors allow us not to be constrained by routine, which often breeds habituation to problems and isolation from market evolution and the external context.
+            We operate as an <em className="text-[#D4AF37] not-italic">integrated TEAM</em> in 360° yachting consultancy — yacht selection, crew management, sales advisory and charter management — consistently taking into account structural, operational and financial constraints and the implications on board and ashore. International contacts and cross-sector experience free us from routine and habituation, keeping us connected to market evolution.
           </p>
           <p className="text-gray-400">
-            Our task is to stand alongside the owner and examine with him market opportunities and the need for strategic and tactical evolution of each variable — yacht, crew, management and value enhancement — formulating a shared programme and overseeing its implementation, fully accepting verification on results. <span className="text-white">Our mission is your complete satisfaction.</span>
+            We stand alongside the owner, examine opportunities and cruising programme together, define shared criteria, verify comparable alternatives and oversee implementation, accepting verification on results. <span className="text-white">Our mission is your complete satisfaction — our only KPI.</span>
           </p>
         </div>
 

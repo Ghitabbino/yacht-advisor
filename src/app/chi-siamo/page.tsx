@@ -33,19 +33,19 @@ export default function Page() {
           <div className="w-16 h-px bg-[#D4AF37]/50 mx-auto mt-10 mb-10" aria-hidden />
         </div>
 
-        {/* Studio — riscrittura Zanni adattata Yacht */}
+        {/* Chi Siamo — professionisti marketing + esperienza vissuta proprietari/skipper/equipaggi */}
         <div className="max-w-3xl mx-auto mb-14 text-left space-y-5 text-[14.5px] leading-relaxed font-light text-gray-300">
           <p>
-            <strong className="text-white font-normal">Yacht Advisor è un team di professionisti</strong> che, per competenze ed esperienza maturate affiancando armatori e aziende in settori diversi, costituisce una risposta concreta agli interrogativi di chi vive il mare. Un apporto esterno è stimolo, verifica e maggiore sicurezza; tanto più efficace quanto più è fornito da un <em className="text-[#D4AF37] not-italic">TEAM integrato</em>, non da un singolo.
+            <strong className="text-white font-normal">Siamo professionisti del marketing con una profonda esperienza vissuta nella nautica.</strong> Non solo marketing nautico: abbiamo vissuto il mare come <em className="text-[#D4AF37] not-italic">proprietari, skipper ed equipaggi di numerose imbarcazioni</em> — a vela e a motore, monoscafi e multiscafi — in Mediterraneo, Atlantico, Caraibi e Nord Europa. Conosciamo da dentro tempi, costi, dinamiche di bordo, scelta e gestione dell’equipaggio, manutenzione, ormeggi e valorizzazione dell’asset, perché li abbiamo provati noi per primi.
           </p>
           <p className="text-gray-400">
-            Operiamo nella <strong className="text-gray-200 font-normal">consulenza nautica integrata</strong> — selezione dell’imbarcazione, gestione equipaggio, assistenza alla vendita e gestione charter — ma ogni intervento tiene costantemente conto dei vincoli strutturali, operativi ed economici dell’armatore e delle implicazioni interfunzionali a bordo e a terra.
+            Questa doppia competenza — <strong className="text-gray-200 font-normal">rigore consulenziale e vita a bordo</strong> — nasce da oltre 25 anni in multinazionali di diversi settori come responsabili marketing, con Master SADA in Marketing e Comunicazione, e da soci anziani dello Studio Zanni e Associati per il marketing strategico e operativo, sempre continuando a navigare. Da oltre 15 anni la dedichiamo interamente alla nautica, trasferendo metodo, verifica e disciplina d’impresa al mondo dello yachting.
           </p>
           <p className="text-gray-400">
-            Contatti ed esperienze maturate in contesti internazionali e in settori diversi ci permettono di non essere condizionati dalla routine, che spesso genera assuefazione ai problemi e isolamento rispetto all’evoluzione del mercato e del contesto esterno.
+            Operiamo come <em className="text-[#D4AF37] not-italic">TEAM integrato</em> nella consulenza nautica a 360° — selezione dell’imbarcazione, gestione equipaggio, assistenza alla vendita e gestione charter — tenendo costantemente conto dei vincoli strutturali, operativi ed economici e delle implicazioni a bordo e a terra. Contatti ed esperienze internazionali ci svincolano dalla routine e dall’assuefazione ai problemi, mantenendoci connessi all’evoluzione del mercato.
           </p>
           <p className="text-gray-400">
-            Il nostro compito è affiancare l’armatore e studiare con lui opportunità, programma di navigazione ed evoluzione strategica e tattica di ogni variabile — barca, equipaggio, gestione e valorizzazione — formulando un programma condiviso e curandone l’attuazione, accettando la verifica sui risultati. <span className="text-white">La nostra missione è la vostra piena soddisfazione.</span>
+            Affianchiamo l’armatore, studiamo con lui opportunità e programma di navigazione, definiamo criteri condivisi, verifichiamo alternative comparabili e curiamo l’attuazione, accettando la verifica sui risultati. <span className="text-white">La nostra missione è la vostra piena soddisfazione — unico KPI.</span>
           </p>
         </div>
 
