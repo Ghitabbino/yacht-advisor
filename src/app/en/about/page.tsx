@@ -30,7 +30,23 @@ export default function Page() {
           <p className="text-[15px] leading-relaxed font-light text-gray-400 text-center mt-8 max-w-2xl mx-auto">
             Yacht Advisor is an independent, confidential structure. No sales mandate, no yard or broker ties. We work on a fiduciary basis, with documented verification and comparison of alternatives.
           </p>
-          <div className="w-16 h-px bg-[#D4AF37]/50 mx-auto mt-10 mb-14" aria-hidden />
+          <div className="w-16 h-px bg-[#D4AF37]/50 mx-auto mt-10 mb-10" aria-hidden />
+        </div>
+
+        {/* Studio — rewritten for Yacht */}
+        <div className="max-w-3xl mx-auto mb-14 text-left space-y-5 text-[14.5px] leading-relaxed font-light text-gray-300">
+          <p>
+            <strong className="text-white font-normal">Yacht Advisor brings together a team of professionals</strong> whose skills and experience, gained alongside owners and companies across sectors, provide concrete answers to the questions of those who live at sea. An external contribution brings stimulus, verification and greater assurance — all the more effective when delivered by an <em className="text-[#D4AF37] not-italic">integrated TEAM</em>, not a single individual.
+          </p>
+          <p className="text-gray-400">
+            We operate in <strong className="text-gray-200 font-normal">integrated yachting consultancy</strong> — yacht selection, crew management, sales advisory and charter management — yet every engagement consistently takes into account the structural, operational and financial constraints of the owner and the cross-functional implications on board and ashore.
+          </p>
+          <p className="text-gray-400">
+            Contacts and experience built in international contexts and across sectors allow us not to be constrained by routine, which often breeds habituation to problems and isolation from market evolution and the external context.
+          </p>
+          <p className="text-gray-400">
+            Our task is to stand alongside the owner and examine with him market opportunities and the need for strategic and tactical evolution of each variable — yacht, crew, management and value enhancement — formulating a shared programme and overseeing its implementation, fully accepting verification on results. <span className="text-white">Our mission is your complete satisfaction.</span>
+          </p>
         </div>
 
         <div className="grid grid-cols-1 gap-10">

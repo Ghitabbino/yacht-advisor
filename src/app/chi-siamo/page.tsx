@@ -30,7 +30,23 @@ export default function Page() {
           <p className="text-[15px] leading-relaxed font-light text-gray-400 text-center mt-8 max-w-2xl mx-auto">
             Yacht Advisor nasce come struttura indipendente e riservata. Nessun mandato di vendita, nessun legame con cantieri o broker. Lavoriamo su mandato fiduciario, con verifiche documentate e confronti tra alternative.
           </p>
-          <div className="w-16 h-px bg-[#D4AF37]/50 mx-auto mt-10 mb-14" aria-hidden />
+          <div className="w-16 h-px bg-[#D4AF37]/50 mx-auto mt-10 mb-10" aria-hidden />
+        </div>
+
+        {/* Studio — riscrittura Zanni adattata Yacht */}
+        <div className="max-w-3xl mx-auto mb-14 text-left space-y-5 text-[14.5px] leading-relaxed font-light text-gray-300">
+          <p>
+            <strong className="text-white font-normal">Yacht Advisor è un team di professionisti</strong> che, per competenze ed esperienza maturate affiancando armatori e aziende in settori diversi, costituisce una risposta concreta agli interrogativi di chi vive il mare. Un apporto esterno è stimolo, verifica e maggiore sicurezza; tanto più efficace quanto più è fornito da un <em className="text-[#D4AF37] not-italic">TEAM integrato</em>, non da un singolo.
+          </p>
+          <p className="text-gray-400">
+            Operiamo nella <strong className="text-gray-200 font-normal">consulenza nautica integrata</strong> — selezione dell’imbarcazione, gestione equipaggio, assistenza alla vendita e gestione charter — ma ogni intervento tiene costantemente conto dei vincoli strutturali, operativi ed economici dell’armatore e delle implicazioni interfunzionali a bordo e a terra.
+          </p>
+          <p className="text-gray-400">
+            Contatti ed esperienze maturate in contesti internazionali e in settori diversi ci permettono di non essere condizionati dalla routine, che spesso genera assuefazione ai problemi e isolamento rispetto all’evoluzione del mercato e del contesto esterno.
+          </p>
+          <p className="text-gray-400">
+            Il nostro compito è affiancare l’armatore e studiare con lui opportunità, programma di navigazione ed evoluzione strategica e tattica di ogni variabile — barca, equipaggio, gestione e valorizzazione — formulando un programma condiviso e curandone l’attuazione, accettando la verifica sui risultati. <span className="text-white">La nostra missione è la vostra piena soddisfazione.</span>
+          </p>
         </div>
 
         <div className="grid grid-cols-1 gap-10">
