@@ -162,7 +162,7 @@ export default function Home() {
             <div className="text-center">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">01</div>
               <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Analisi approfondita dei bisogni</h3>
-              <p className="text-sm leading-relaxed font-light text-gray-600">Il nostro approccio operativo si fonda sull’analisi approfondita delle esigenze, delle aspettative e dei bisogni dei nostri clienti. Attraverso colloqui dedicati, ascolto attivo e ricostruzione del vostro programma di navigazione — persone a bordo, aree frequentate, durata delle crociere, abitudini e vincoli operativi — definiamo criteri oggettivi, misurabili e condivisi prima di valutare qualsiasi opzione. Ogni dettaglio rilevante viene considerato, dalle preferenze di layout alla gestione del tempo a bordo, perché nulla viene proposto senza aver compreso a fondo il vostro modo di vivere il mare e ciò che per voi significa davvero navigare con serenità.</p>
+              <p className="text-sm leading-relaxed font-light text-gray-600">Il nostro approccio operativo si fonda sull’analisi approfondita delle esigenze, delle aspettative e dei bisogni dei nostri clienti — attraverso colloqui dedicati, ascolto attivo e ricostruzione del vostro programma di navigazione — definiamo criteri oggettivi, misurabili e condivisi. Non proponiamo soluzioni prima di aver compreso a fondo tutti gli aspetti: ogni dettaglio rilevante, dal layout alla gestione del tempo a bordo, viene considerato perché nulla viene indicato senza aver compreso cosa significa per voi navigare con serenità e senza sorprese.</p>
             </div>
             <div className="text-center md:border-x md:border-gray-200 md:px-8">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">02</div>
@@ -176,8 +176,8 @@ export default function Home() {
             </div>
           </div>
 
-          <p className="mt-14 text-center text-sm italic font-light text-gray-500 max-w-2xl mx-auto">
-            Un metodo costante, applicato con la stessa cura e la stessa profondità in ogni incarico: dati verificabili, alternative confrontate con metodo, scelta tracciabile e difendibile nel tempo, per risultati che durano oltre il momento dell’acquisto.
+          <p className="mt-14 text-center text-sm font-semibold text-[#020817] max-w-2xl mx-auto tracking-wide">
+            Capiamo i bisogni, verifichiamo le opzioni, troviamo la soluzione su misura.
           </p>
         </div>
       </section>

@@ -171,7 +171,7 @@ export default function EnHome() {
             <div className="text-center">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">01</div>
               <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">In-depth needs analysis</h3>
-              <p className="text-sm leading-relaxed font-light text-gray-600">Our operating approach is founded on an in-depth analysis of our clients’ needs, expectations and requirements. Through dedicated interviews, active listening and reconstruction of your cruising programme — people on board, areas, duration, onboard habits and operational constraints — we define objective, measurable and shared criteria before assessing any option. Every relevant detail is considered, from layout preferences to time management on board, because nothing is proposed without a thorough understanding of your way of life at sea and what serene cruising truly means to you.</p>
+              <p className="text-sm leading-relaxed font-light text-gray-600">Our operating approach is founded on an in-depth analysis of our clients’ needs, expectations and requirements — through dedicated interviews, active listening and reconstruction of your cruising programme — we define objective, measurable and shared criteria. We do not propose solutions before thoroughly understanding all aspects: every relevant detail, from layout to time management on board, is considered because nothing is recommended without understanding what serene, surprise-free cruising truly means to you.</p>
             </div>
             <div className="text-center md:border-x md:border-gray-200 md:px-8">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">02</div>
@@ -185,8 +185,8 @@ export default function EnHome() {
             </div>
           </div>
 
-          <p className="mt-14 text-center text-sm italic font-light text-gray-500 max-w-2xl mx-auto">
-            A consistent method, applied with the same care and depth to every engagement: verifiable data, alternatives compared with method, traceable and defensible choice over time, for results that last beyond the moment of purchase.
+          <p className="mt-14 text-center text-sm font-semibold text-[#020817] max-w-2xl mx-auto tracking-wide">
+            We understand needs, we verify options, we deliver the tailored solution.
           </p>
         </div>
       </section>
