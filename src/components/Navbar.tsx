@@ -28,14 +28,14 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
-      <div className="w-full pl-1 pr-2 lg:pl-2 lg:pr-4 py-4 flex justify-between items-center gap-2">
-        <Link href={isEn ? "/en/about" : "/chi-siamo"} className="flex justify-start group shrink-0 ml-0 pl-0" aria-label="Yacht Advisor - Chi siamo">
-          <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-12 h-12 md:w-15 md:h-15 opacity-95 group-hover:rotate-180 transition-transform duration-700 shrink-0 drop-shadow-[0_2px_8px_rgba(15,23,42,0.14)] [filter:drop-shadow(0_1px_3px_rgba(212,175,55,0.18))] ml-0 pl-0" />
-        </Link>
-        <Link href={isEn ? "/en/about" : "/chi-siamo"} className="flex-1 flex flex-col items-center justify-center text-center group px-1" aria-label="Yacht Advisor - Chi siamo">
-          <span className="font-luxury text-[24px] md:text-[29px] font-black tracking-[0.38em] text-[#020817] leading-none text-center">YACHT<span className="text-[#D4AF37]"> ADVISOR</span></span>
-          <span className="text-[10.5px] md:text-[11.5px] uppercase tracking-[0.42em] text-[#0F172A] mt-1 font-semibold leading-none text-center whitespace-nowrap">
-            Your happiness is our job
+      <div className="w-full pl-2 pr-4 lg:pl-4 lg:pr-6 py-4 flex justify-end items-center gap-6">
+        <Link href={isEn ? "/en/about" : "/chi-siamo"} className="flex items-center gap-3 group shrink-0 ml-auto" aria-label="Yacht Advisor - Chi siamo">
+          <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-11 h-11 md:w-13 md:h-13 opacity-95 group-hover:rotate-180 transition-transform duration-700 shrink-0 drop-shadow-[0_2px_8px_rgba(15,23,42,0.14)] [filter:drop-shadow(0_1px_3px_rgba(212,175,55,0.18))]" />
+          <span className="flex flex-col items-start leading-none">
+            <span className="font-luxury text-[22px] md:text-[26px] font-black tracking-[0.36em] text-[#020817] leading-none">YACHT<span className="text-[#D4AF37]"> ADVISOR</span></span>
+            <span className="text-[10px] md:text-[11px] uppercase tracking-[0.40em] text-[#0F172A] mt-1 font-semibold leading-none whitespace-nowrap">
+              Your happiness is our job
+            </span>
           </span>
         </Link>
 
