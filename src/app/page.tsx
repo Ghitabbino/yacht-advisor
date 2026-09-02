@@ -80,10 +80,10 @@ export default function Home() {
               L&apos;acquisto di uno yacht rappresenta un investimento significativo, con una vasta gamma di imbarcazioni disponibili sul mercato, ognuna caratterizzata da specifiche proprietà costruttive e finalità d&apos;uso.
             </p>
             <p>
-              Il potenziale armatore si ritrova così di fronte a un ampio ventaglio di opzioni, spesso contrastanti, che rendono difficile individuare la scelta più adatta al proprio stile di vita e alle proprie aspettative in ambito nautico.
+              Il potenziale armatore si ritrova così di fronte a un ampio ventaglio di opzioni, spesso contrastanti, che rendono difficile individuare la scelta più adatta al proprio stile di vita e alle proprie aspettative nel settore nautico.
             </p>
             <p>
-              Altrettanto complessa si rivela la selezione dell&apos;equipaggio, un ambito spesso inedito per il nuovo armatore. Orientarsi in questo settore richiede tempo ed energia; d&apos;altronde, un reclutamento errato rischia di compromettere non solo la gestione della barca, ma l&apos;intera esperienza di vacanza a bordo del proprio yacht.
+              Altrettanto complessa si rivela la selezione dell&apos;equipaggio, un terreno spesso inesplorato per il nuovo armatore. Orientarsi in questo contesto richiede tempo ed energia; d&apos;altronde, un reclutamento errato rischia di compromettere non solo la gestione della barca, ma l&apos;intera esperienza di vacanza a bordo del proprio yacht.
             </p>
             <p className="text-[#0F172A] font-normal text-center">
               Yacht Advisor nasce per colmare questa distanza: prima comprendiamo i vostri bisogni, poi indichiamo la soluzione su misura, con indipendenza, verifiche documentate e riservatezza — come <em>single integrated team</em> al vostro fianco, con rete globale e tutela fiduciaria. La nostra missione è la vostra piena soddisfazione.
@@ -114,9 +114,9 @@ export default function Home() {
       <section id="servizi" className="py-24 md:py-32 bg-[#0F172A] text-white scroll-mt-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto">
-            <p className="text-[11px] tracking-[0.35em] uppercase text-[#D4AF37] font-semibold mb-4">Ambiti di intervento</p>
+            <p className="text-[11px] tracking-[0.35em] uppercase text-[#D4AF37] font-semibold mb-4">Aree di intervento</p>
             <h2 className="font-luxury text-3xl md:text-[44px] font-bold leading-tight">
-              Quattro ambiti,<br />
+              Quattro aree,<br />
               <span className="italic font-normal text-white/90">un unico mandato: tutelarvi.</span>
             </h2>
             <p className="mt-6 text-[15px] leading-relaxed font-light text-gray-400">
