@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://ghitabbino.github.io/yacht-advisor/sitemap.xml
