@@ -11,24 +11,24 @@ export default function Page() {
   return (
     <ServicePageLayout
       eyebrow="Assistenza alla Vendita"
-      title="Valorizziamo il vostro investimento con professionalità e discrezione."
+      title="Vendita e riacquisto: un unico percorso, non due pratiche."
       subtitle="Assistenza alla Vendita"
-      intro="Ogni armatore è unico. Capendo i vostri bisogni, troviamo la soluzione su misura."
+      intro="Se valutate di vendere per poi riacquistare, non vi lasciamo a metà. Valutiamo insieme se conviene vendere ora, dove esporre la barca, se riacquistare prima di vendere, costi/benefici e tempi — poi seguiamo tutto il percorso."
       blocks={[
         {
-          title: "Selezione del Broker Ideale",
-          text: "Non lasciamo nulla al caso. Analizziamo comparabili reali, posizionamento e tempistiche per identificare i broker più qualificati e specializzati nel mercato di riferimento della vostra imbarcazione, per tipologia, area e fascia di prezzo. Garantiamo una rappresentazione d'eccellenza, l'accesso ai canali più esclusivi e la negoziazione di mandato e condizioni a tutela della vostra posizione.",
+          title: "Valutazione complessiva — prima di vendere",
+          text: "Esempio: 24m valore mediano €1.500.000. Il broker spinge a €1.400.000 per chiudere in 60 giorni — per lui -€8k di provvigione, per voi -€100k di capitale. Noi verifichiamo: vendere ora o tenere 4 mesi in charter controllato (+€28k) e vendere a €1.485.000 a settembre? Dove esporla (Liguria vs Costa Azzurra)? Si può riacquistare prima con vendita con patto di utilizzo? Così decidete con numeri, non con fretta.",
         },
         {
-          title: "Marketing di Prestigio",
-          text: "Curiamo ogni dettaglio dell'esposizione con rigore consulenziale: fotografia e video professionali di alta qualità, descrizioni tecniche ineccepibili, inventario documentato e promozione mirata sui principali portali nautici di lusso. Presentiamo lo yacht al meglio fin dal primo giorno, con pricing basato su dati di mercato comparabili e coerente con la sua valorizzazione.",
+          title: "Broker scelto insieme, provvigione negoziata",
+          text: "Non sostituiamo il broker: lo scegliamo insieme per tipologia/area/fascia e ne negoziamo il mandato al 7% invece di 8-10%. Seguiamo per vostro conto perizia del compratore, aiutandovi a valutarla per decidere — senza firmarla. Il broker prende la sua provvigione dal venditore, noi un compenso chiaro per il lavoro.",
         },
         {
-          title: "Gestione della Negoziazione",
-          text: "Supportiamo l'armatore in ogni fase del processo di vendita — filtro delle richieste, gestione di visite e offerte, conduzione della negoziazione e supervisione di perizie, contratti e closing — assicurando la massima tutela degli interessi, trasparenza sui passaggi e riservatezza sull'identità fino alla chiusura, se richiesta.",
+          title: "Riacquisto senza restare a terra",
+          text: "Con capitale preservato, scouting di 3 alternative comparabili e perito indicato e scelto insieme, seguito per vostro conto. Esempio: venduto €1.485.000 (netto €1.357.000 dopo 7% + fee) e riacquistato 22m a €1.050.000 invece di €1.100.000 — restano €307k + €28k charter = €335k vs €188k senza percorso. Non vi abbandoniamo tra le due operazioni.",
         },
       ]}
-      closing="Un realizzo congruo, con processo tracciato e riservato."
+      closing="Un esempio tra molti — ogni percorso è cucito sul vostro programma di navigazione."
     />
   );
 }
