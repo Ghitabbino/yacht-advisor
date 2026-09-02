@@ -1,5 +1,29 @@
+import type { Metadata } from "next";
+import Image from "next/image";
 import ServiceCard from "@/components/ServiceCard";
 import ContactForm from "@/components/ContactForm";
+
+export const metadata: Metadata = {
+  title: "Yacht Advisor | Prima i bisogni. Poi lo yacht giusto.",
+  description:
+    "Consulenza indipendente e riservata per armatori: ogni armatore è unico. Capendo i vostri bisogni, indichiamo la soluzione su misura. Nessun legame con cantieri o broker.",
+  keywords: [
+    "yacht advisor",
+    "consulenza nautica",
+    "selezione yacht",
+    "gestione equipaggio",
+    "vendita yacht",
+    "charter yacht",
+    "consulenza indipendente",
+  ],
+  alternates: {
+    canonical: "/",
+    languages: {
+      "it-IT": "/",
+      "en-US": "/en/",
+    },
+  },
+};
 
 export default function Home() {
   return (
@@ -9,14 +33,24 @@ export default function Home() {
         aria-label="Hero"
         className="relative h-[92vh] min-h-[680px] flex items-center justify-center overflow-hidden bg-[#0F172A]"
       >
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(2,8,23,0.65), rgba(15,23,42,0.45), rgba(2,8,23,0.82)), url('https://images.unsplash.com/photo-1567899154113-9d511797d17b?auto=format&fit=crop&w=1920&q=80')`,
-          }}
-          role="img"
-          aria-label="Yacht di lusso in navigazione al tramonto"
-        />
+        <div className="absolute inset-0" aria-hidden="true">
+          <Image
+            src="https://images.unsplash.com/photo-1567899154113-9d511797d17b?auto=format&fit=crop&w=1920&q=80"
+            alt="Yacht di lusso in navigazione al tramonto"
+            fill
+            priority
+            sizes="100vw"
+            quality={75}
+            className="object-cover object-center"
+          />
+          <div
+            className="absolute inset-0"
+            style={{
+              background: "linear-gradient(to bottom, rgba(2,8,23,0.65), rgba(15,23,42,0.45), rgba(2,8,23,0.82))",
+            }}
+            aria-hidden="true"
+          />
+        </div>
         {/* sottile vignettatura gold */}
         <div className="absolute inset-0 ring-1 ring-white/10 ring-inset pointer-events-none" aria-hidden />
         <div className="relative text-center text-white px-6 max-w-5xl">
@@ -142,21 +176,25 @@ export default function Home() {
               href="/selezione"
               title="Selezione Imbarcazione"
               description="Analisi comparata di modelli e cantieri in base al programma d'uso, con due diligence tecnica e verifica del valore nel tempo."
+              cta="Approfondisci →"
             />
             <ServiceCard
               href="/equipaggio"
               title="Gestione Equipaggi"
               description="Valutazione di profili, referenze e compatibilità operativa, con definizione di standard di servizio e gestione contrattuale."
+              cta="Approfondisci →"
             />
             <ServiceCard
               href="/vendita"
               title="Assistenza alla Vendita"
               description="Analisi di mercato, scelta del canale e gestione della negoziazione con documentazione e riservatezza."
+              cta="Approfondisci →"
             />
             <ServiceCard
               href="/charter"
               title="Gestione Charter"
               description="Impostazione di strategia, canali e processi operativi per un utilizzo charter compatibile con standard e tutela dell'asset."
+              cta="Approfondisci →"
             />
           </div>
         </div>

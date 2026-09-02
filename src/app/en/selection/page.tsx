@@ -5,6 +5,20 @@ export const metadata: Metadata = {
   title: "Yacht Selection | Yacht Advisor",
   description:
     "Independent advice to find the yacht that fits your lifestyle. Technical analysis, yard comparison and protected negotiation.",
+  keywords: [
+    "yacht selection",
+    "yacht purchase advisory",
+    "yacht due diligence",
+    "yard comparison",
+    "independent yacht consultancy",
+  ],
+  alternates: {
+    canonical: "/en/selection/",
+    languages: {
+      "it-IT": "/selezione/",
+      "en-US": "/en/selection/",
+    },
+  },
 };
 
 export default function Page() {
@@ -29,9 +43,9 @@ export default function Page() {
         },
       ]}
       closing="A conscious choice, with no surprises after purchase."
-      backHref="/en#services"
+      backHref="/en/#services"
       backLabel="← All Services"
-      ctaHref="/en#contact"
+      ctaHref="/en/#contact"
       ctaLabel="Request a Private Consultation"
       ctaSublabel="Reply within 24 hours • No obligation"
     />

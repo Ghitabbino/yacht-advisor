@@ -5,6 +5,20 @@ export const metadata: Metadata = {
   title: "Assistenza alla Vendita | Yacht Advisor",
   description:
     "Vendete al giusto valore, nei tempi giusti, con discrezione. Scegliamo il broker ideale e curiamo posizionamento e negoziazione.",
+  keywords: [
+    "vendita yacht",
+    "assistenza vendita yacht",
+    "broker yacht selezione",
+    "valutazione yacht",
+    "negoziazione yacht",
+  ],
+  alternates: {
+    canonical: "/vendita/",
+    languages: {
+      "it-IT": "/vendita/",
+      "en-US": "/en/sale/",
+    },
+  },
 };
 
 export default function Page() {
@@ -14,6 +28,11 @@ export default function Page() {
       title="Valorizziamo il vostro investimento con professionalità e discrezione."
       subtitle="Assistenza alla Vendita"
       intro="Ogni armatore è unico. Capendo i vostri bisogni, troviamo la soluzione su misura."
+      backHref="/#servizi"
+      backLabel="← Tutti i Servizi"
+      ctaHref="/#contatti"
+      ctaLabel="Richiedi Consulenza Riservata"
+      ctaSublabel="Risposta entro 24 ore • Nessun impegno"
       blocks={[
         {
           title: "Selezione del Broker Ideale",

@@ -5,6 +5,20 @@ export const metadata: Metadata = {
   title: "Gestione Equipaggi | Yacht Advisor",
   description:
     "L'equipaggio è l'anima dell'esperienza a bordo. Selezioniamo e gestiamo professionisti discreti, preparati e allineati al vostro stile.",
+  keywords: [
+    "gestione equipaggio yacht",
+    "crew management",
+    "reclutamento equipaggio",
+    "formazione equipaggio",
+    "gestione contratti marittimi",
+  ],
+  alternates: {
+    canonical: "/equipaggio/",
+    languages: {
+      "it-IT": "/equipaggio/",
+      "en-US": "/en/crew/",
+    },
+  },
 };
 
 export default function Page() {
@@ -14,6 +28,11 @@ export default function Page() {
       title="L'eccellenza del servizio passa attraverso l'eccellenza delle persone."
       subtitle="Gestione Equipaggi"
       intro="Ogni armatore è unico. Capendo i vostri bisogni, troviamo la soluzione su misura."
+      backHref="/#servizi"
+      backLabel="← Tutti i Servizi"
+      ctaHref="/#contatti"
+      ctaLabel="Richiedi Consulenza Riservata"
+      ctaSublabel="Risposta entro 24 ore • Nessun impegno"
       blocks={[
         {
           title: "Recruitment di Elite",

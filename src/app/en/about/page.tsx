@@ -5,6 +5,20 @@ export const metadata: Metadata = {
   title: "About us | Yacht Advisor",
   description:
     "Yacht Advisor: independent, confidential consultancy. Every owner is unique. By understanding your needs, we find the tailored solution.",
+  keywords: [
+    "yacht advisor about",
+    "yacht consultancy team",
+    "yacht consultants",
+    "yacht marketing",
+    "yacht advisor genoa",
+  ],
+  alternates: {
+    canonical: "/en/about/",
+    languages: {
+      "it-IT": "/chi-siamo/",
+      "en-US": "/en/about/",
+    },
+  },
 };
 
 export default function Page() {
@@ -12,7 +26,7 @@ export default function Page() {
     <section className="py-16 md:py-24 bg-[#0F172A] text-white">
       <div className="max-w-4xl mx-auto px-6">
         <Link
-          href="/en"
+          href="/en/"
           className="inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.2em] text-gray-400 hover:text-[#D4AF37] transition mb-10"
         >
           ← Home
@@ -91,8 +105,8 @@ export default function Page() {
 
         <div className="mt-10 text-center">
           <Link
-            href="/en#contact"
-            className="inline-flex items-center justify-center bg-[#D4AF37] text-[#020817] px-9 py-4 text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-[#c9a22f] transition"
+            href="/en/#contact"
+            className="inline-flex items-center justify-center bg-[#D4AF37] text-[#020817] px-9 py-4 text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-[#c9a22f] transition shadow-[0_10px_30px_rgba(212,175,55,0.2)] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
           >
             Private contact
           </Link>

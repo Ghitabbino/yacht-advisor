@@ -5,6 +5,20 @@ export const metadata: Metadata = {
   title: "Crew Management | Yacht Advisor",
   description:
     "Crew is the soul of the onboard experience. We recruit and manage discreet, skilled professionals aligned with your style.",
+  keywords: [
+    "yacht crew management",
+    "crew recruitment",
+    "crew training",
+    "yacht crew contracts",
+    "luxury yacht crew",
+  ],
+  alternates: {
+    canonical: "/en/crew/",
+    languages: {
+      "it-IT": "/equipaggio/",
+      "en-US": "/en/crew/",
+    },
+  },
 };
 
 export default function Page() {
@@ -29,9 +43,9 @@ export default function Page() {
         },
       ]}
       closing="Stable, discreet service that protects your time and privacy."
-      backHref="/en#services"
+      backHref="/en/#services"
       backLabel="← All Services"
-      ctaHref="/en#contact"
+      ctaHref="/en/#contact"
       ctaLabel="Request a Private Consultation"
       ctaSublabel="Reply within 24 hours • No obligation"
     />

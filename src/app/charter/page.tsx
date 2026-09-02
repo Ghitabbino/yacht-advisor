@@ -5,6 +5,20 @@ export const metadata: Metadata = {
   title: "Gestione Charter | Yacht Advisor",
   description:
     "Trasformate il vostro yacht in un asset che genera reddito, senza rinunciare a standard, privacy e controllo. Strategia charter su misura.",
+  keywords: [
+    "gestione charter yacht",
+    "charter management",
+    "yacht charter strategia",
+    "promozione charter",
+    "gestione operativa charter",
+  ],
+  alternates: {
+    canonical: "/charter/",
+    languages: {
+      "it-IT": "/charter/",
+      "en-US": "/en/charter/",
+    },
+  },
 };
 
 export default function Page() {
@@ -14,6 +28,11 @@ export default function Page() {
       title="Trasformiamo la vostra passione in un investimento redditizio."
       subtitle="Gestione Charter"
       intro="Ogni armatore è unico. Capendo i vostri bisogni, troviamo la soluzione su misura."
+      backHref="/#servizi"
+      backLabel="← Tutti i Servizi"
+      ctaHref="/#contatti"
+      ctaLabel="Richiedi Consulenza Riservata"
+      ctaSublabel="Risposta entro 24 ore • Nessun impegno"
       blocks={[
         {
           title: "Ottimizzazione della Redditività",

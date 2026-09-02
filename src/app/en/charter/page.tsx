@@ -5,6 +5,20 @@ export const metadata: Metadata = {
   title: "Charter Management | Yacht Advisor",
   description:
     "Turn your yacht into a performing asset without compromising standards, privacy or control. Bespoke charter strategy.",
+  keywords: [
+    "yacht charter management",
+    "charter strategy",
+    "charter promotion",
+    "yacht charter operations",
+    "luxury charter",
+  ],
+  alternates: {
+    canonical: "/en/charter/",
+    languages: {
+      "it-IT": "/charter/",
+      "en-US": "/en/charter/",
+    },
+  },
 };
 
 export default function Page() {
@@ -29,9 +43,9 @@ export default function Page() {
         },
       ]}
       closing="A charter programme that protects the yacht, respects your time and turns a fixed cost into transparent return."
-      backHref="/en#services"
+      backHref="/en/#services"
       backLabel="← All Services"
-      ctaHref="/en#contact"
+      ctaHref="/en/#contact"
       ctaLabel="Request a Private Consultation"
       ctaSublabel="Reply within 24 hours • No obligation"
     />

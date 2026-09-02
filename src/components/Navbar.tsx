@@ -8,16 +8,16 @@ const linksIt = [
   { href: "/#la-premessa", label: "Premessa" },
   { href: "/#servizi", label: "Servizi" },
   { href: "/#metodo", label: "Metodo" },
-  { href: "/chi-siamo", label: "Chi Siamo" },
+  { href: "/chi-siamo/", label: "Chi Siamo" },
   { href: "/#contatti", label: "Contatti" },
 ];
 
 const linksEn = [
-  { href: "/en#premise", label: "Premise" },
-  { href: "/en#services", label: "Services" },
-  { href: "/en#method", label: "Method" },
-  { href: "/en/about", label: "About" },
-  { href: "/en#contact", label: "Contact" },
+  { href: "/en/#premise", label: "Premise" },
+  { href: "/en/#services", label: "Services" },
+  { href: "/en/#method", label: "Method" },
+  { href: "/en/about/", label: "About" },
+  { href: "/en/#contact", label: "Contact" },
 ];
 
 export default function Navbar() {
@@ -29,11 +29,11 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
       <div className="w-full pl-3 pr-4 lg:pl-4 lg:pr-6 py-4 flex justify-between items-center gap-3">
-        <Link href={isEn ? "/en/about" : "/chi-siamo"} className="flex items-center gap-3 group shrink-0" aria-label="Yacht Advisor - Chi siamo">
-          <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-11 h-11 md:w-13 md:h-13 opacity-95 group-hover:rotate-180 transition-transform duration-700 shrink-0 drop-shadow-[0_2px_8px_rgba(15,23,42,0.14)] [filter:drop-shadow(0_1px_3px_rgba(212,175,55,0.18))]" />
+        <Link href={isEn ? "/en/about/" : "/chi-siamo/"} className="flex items-center gap-3 group shrink-0" aria-label="Yacht Advisor - Chi siamo">
+          <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-11 h-11 md:w-14 md:h-14 opacity-95 group-hover:rotate-180 transition-transform duration-700 shrink-0 drop-shadow-[0_2px_8px_rgba(15,23,42,0.14)] [filter:drop-shadow(0_1px_3px_rgba(212,175,55,0.18))]" />
           <span className="flex flex-col items-start leading-none">
-            <span className="font-luxury text-[22px] md:text-[26px] font-black tracking-[0.36em] text-[#020817] leading-none text-left">YACHT<span className="text-[#D4AF37]"> ADVISOR</span></span>
-            <span className="text-[10px] md:text-[11px] uppercase tracking-[0.40em] text-[#0F172A] mt-1 font-semibold leading-none text-left whitespace-nowrap">
+            <span className="font-luxury text-[23px] md:text-[29px] font-black tracking-[0.40em] text-[#020817] leading-none text-left">YACHT<span className="text-[#D4AF37]"> ADVISOR</span></span>
+            <span className="text-[10.5px] md:text-[11.5px] uppercase tracking-[0.44em] text-[#0F172A] mt-1 font-semibold leading-none text-left whitespace-nowrap">
               Your happiness is our job
             </span>
           </span>
@@ -62,7 +62,7 @@ export default function Navbar() {
               </Link>
               <span className="text-gray-300">/</span>
               <Link
-                href="/en"
+                href="/en/"
                 className={`px-2 py-1 transition ${isEn ? "text-[#D4AF37] font-semibold" : "text-gray-400 hover:text-[#0F172A]"}`}
                 aria-current={isEn ? "page" : undefined}
               >
@@ -75,7 +75,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3 md:hidden">
             <div className="flex items-center gap-1 text-[11px] font-semibold">
               <Link href="/" className={`px-2 py-1 ${!isEn ? "text-[#D4AF37] font-semibold" : "text-gray-400"}`}>IT</Link>
-              <Link href="/en" className={`px-2 py-1 ${isEn ? "text-[#D4AF37] font-semibold" : "text-gray-400"}`}>EN</Link>
+              <Link href="/en/" className={`px-2 py-1 ${isEn ? "text-[#D4AF37] font-semibold" : "text-gray-400"}`}>EN</Link>
             </div>
             <button
               onClick={() => setOpen(!open)}

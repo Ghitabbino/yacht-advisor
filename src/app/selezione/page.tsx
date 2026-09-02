@@ -5,6 +5,20 @@ export const metadata: Metadata = {
   title: "Selezione Imbarcazione | Yacht Advisor",
   description:
     "Consulenza indipendente per scegliere lo yacht cucito sul vostro stile di vita. Analisi tecnica, comparazione cantieri e negoziazione tutelata.",
+  keywords: [
+    "selezione yacht",
+    "acquisto yacht consulenza",
+    "due diligence yacht",
+    "comparazione cantieri",
+    "consulenza indipendente yacht",
+  ],
+  alternates: {
+    canonical: "/selezione/",
+    languages: {
+      "it-IT": "/selezione/",
+      "en-US": "/en/selection/",
+    },
+  },
 };
 
 export default function Page() {
@@ -14,6 +28,11 @@ export default function Page() {
       title="Trovare l'imbarcazione perfetta non è una questione di fortuna, ma di precisione."
       subtitle="Selezione Imbarcazione"
       intro="Ogni armatore è unico. Capendo i vostri bisogni, troviamo la soluzione su misura."
+      backHref="/#servizi"
+      backLabel="← Tutti i Servizi"
+      ctaHref="/#contatti"
+      ctaLabel="Richiedi Consulenza Riservata"
+      ctaSublabel="Risposta entro 24 ore • Nessun impegno"
       blocks={[
         {
           title: "Analisi dello Stile di Vita",

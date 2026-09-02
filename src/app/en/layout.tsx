@@ -22,20 +22,26 @@ export const metadata: Metadata = {
   title: "Yacht Advisor | Needs first. Then the right yacht.",
   description:
     "Independent, confidential consultancy: every owner is unique. By understanding your needs, we find the tailored solution. No yard or broker ties.",
+  keywords: ["yacht", "yacht advisor", "consultancy", "charter", "broker"],
   metadataBase: new URL("https://ghitabbino.github.io/yacht-advisor"),
   openGraph: {
     title: "Yacht Advisor | Needs first. Then the right yacht.",
     description: "Every owner is unique. We understand your needs and we find the tailored solution.",
     type: "website",
     locale: "en_US",
-    url: "https://ghitabbino.github.io/yacht-advisor/en",
+    url: "https://ghitabbino.github.io/yacht-advisor/en/",
   },
   alternates: {
-    canonical: "/en",
+    canonical: "/en/",
     languages: {
       "it-IT": "/",
-      "en-US": "/en",
+      "en-US": "/en/",
+      "x-default": "/",
     },
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

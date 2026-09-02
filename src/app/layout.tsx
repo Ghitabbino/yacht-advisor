@@ -29,14 +29,19 @@ export const metadata: Metadata = {
     description: "Ogni armatore è unico. Capendo i vostri bisogni, indichiamo la soluzione su misura.",
     type: "website",
     locale: "it_IT",
-    url: "https://ghitabbino.github.io/yacht-advisor",
+    url: "https://ghitabbino.github.io/yacht-advisor/",
   },
   alternates: {
     canonical: "/",
     languages: {
       "it-IT": "/",
-      "en-US": "/en",
+      "en-US": "/en/",
+      "x-default": "/",
     },
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

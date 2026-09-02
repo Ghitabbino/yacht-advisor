@@ -4,7 +4,21 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Chi siamo | Yacht Advisor",
   description:
-    "Yacht Advisor: consulenza indipendente per armatori. Conosciamo i vostri bisogni prima di indicare la soluzione. In attesa dei curriculum.",
+    "Yacht Advisor: consulenza indipendente per armatori. Conosciamo i vostri bisogni prima di indicare la soluzione su misura, con verifica documentata e riservatezza.",
+  keywords: [
+    "yacht advisor chi siamo",
+    "consulenza nautica team",
+    "consulenti yacht",
+    "marketing nautico",
+    "yacht advisor genova",
+  ],
+  alternates: {
+    canonical: "/chi-siamo/",
+    languages: {
+      "it-IT": "/chi-siamo/",
+      "en-US": "/en/about/",
+    },
+  },
 };
 
 export default function Page() {
@@ -92,7 +106,7 @@ export default function Page() {
         <div className="mt-10 text-center">
           <Link
             href="/#contatti"
-            className="inline-flex items-center justify-center bg-[#D4AF37] text-[#020817] px-9 py-4 text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-[#c9a22f] transition"
+            className="inline-flex items-center justify-center bg-[#D4AF37] text-[#020817] px-9 py-4 text-[11px] font-bold uppercase tracking-[0.22em] hover:bg-[#c9a22f] transition shadow-[0_10px_30px_rgba(212,175,55,0.2)] focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
           >
             Contatto riservato
           </Link>
