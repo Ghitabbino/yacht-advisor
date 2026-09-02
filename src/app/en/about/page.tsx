@@ -114,7 +114,7 @@ export default function Page() {
                   </div>
                   <div>
                     <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mb-1">Languages</p>
-                    <p className="text-gray-400 font-light">IT native • EN excellent • FR fluent</p>
+                    <p className="text-gray-400 font-light">IT native • EN excellent • FR near-native, indistinguishable pronunciation (French mother)</p>
                     <p className="text-[11px] uppercase tracking-[0.18em] text-[#D4AF37]/80 mt-4">Base Genoa / Palma — on request</p>
                   </div>
                 </div>
