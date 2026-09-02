@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>YACHT ADVISOR — FRONTE 85×85 — ESECUTIVO STAMPA</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+<style>
+  @page { size: 91mm 91mm; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #E8E9EC; }
+  .sheet {
+    width: 91mm; height: 91mm; /* 85 + 3 + 3 bleed */
+    position: relative; margin: 12mm auto;
+    background: #FDFCFB; /* pearl */
+    box-shadow: 0 12px 40px rgba(2,8,23,.18);
+    overflow: hidden;
+  }
+  /* crocini fuori formato */
+  .crop { position: absolute; width: 6mm; height: 6mm; border-color: #0F172A; opacity: .35; }
+  .crop-tl { top: 1mm; left: 1mm; border-top: 0.3mm solid; border-left: 0.3mm solid; }
+  .crop-tr { top: 1mm; right: 1mm; border-top: 0.3mm solid; border-right: 0.3mm solid; }
+  .crop-bl { bottom: 1mm; left: 1mm; border-bottom: 0.3mm solid; border-left: 0.3mm solid; }
+  .crop-br { bottom: 1mm; right: 1mm; border-bottom: 0.3mm solid; border-right: 0.3mm solid; }
+  /* area taglio 85x85 centrata in 91x91 */
+  .cut {
+    position: absolute; left: 3mm; top: 3mm; width: 85mm; height: 85mm;
+    border: 0.15mm dashed rgba(15,23,42,.18);
+    border-radius: 4mm;
+    overflow: hidden;
+    background: #FDFCFB;
+  }
+  /* sicurezza 67x67 (9mm inset) */
+  .safe { position: absolute; left: 9mm; top: 9mm; right: 9mm; bottom: 9mm; border: 0.12mm dotted rgba(15,23,42,.12); border-radius: 2mm; pointer-events: none; }
+  /* rosa centrata */
+  .rosa { position: absolute; left: 50%; top: 42%; transform: translate(-50%,-50%); width: 56mm; height: 56mm; }
+  .rosa svg { width: 100%; height: 100%; }
+  /* marca sotto */
+  .brand { position: absolute; bottom: 14mm; left: 50%; transform: translateX(-50%); text-align: center; width: 67mm; }
+  .brand-name { font-family: 'Cinzel', serif; font-weight: 700; font-size: 7.2pt; letter-spacing: 0.42em; color: #0F172A; line-height: 1; text-transform: uppercase; }
+  .brand-payoff { font-family: 'Montserrat', sans-serif; font-weight: 200; font-size: 5pt; letter-spacing: 0.28em; text-transform: uppercase; color: rgba(15,23,42,.62); margin-top: 2.2mm; }
+  .dot { width: 0.9mm; height: 0.9mm; background: #D4AF37; border-radius: 50%; margin: 2mm auto 0; }
+  /* annotazioni per tipografia */
+  .anno { position: absolute; bottom: 1.2mm; left: 50%; transform: translateX(-50%); font-family: 'Montserrat', sans-serif; font-size: 4pt; letter-spacing: .14em; text-transform: uppercase; color: #7A7F8A; }
+  .layer-tag { position: absolute; top: 4.2mm; left: 5mm; font-family: 'Montserrat', sans-serif; font-size: 4pt; letter-spacing: .12em; text-transform: uppercase; color: #0F172A; background: rgba(212,175,55,.18); border: 0.2mm solid rgba(212,175,55,.45); padding: 0.6mm 1.2mm; border-radius: 2mm; }
+  @media print {
+    html, body { background: white; }
+    .sheet { margin: 0; box-shadow: none; }
+    .no-print { display: none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="no-print" style="max-width:190mm;margin:6mm auto 0;font-family:'Montserrat',sans-serif;font-size:8pt;line-height:1.6;color:#2F3542;background:white;border:1px solid #E5E7EB;border-radius:10px;padding:10px 14px">
+  <b style="font-family:'Cinzel',serif;letter-spacing:.18em;text-transform:uppercase;color:#0F172A">FRONTE — ESECUTIVO STAMPA 85×85 R4</b><br>
+  Formato finito <b>85×85 R4</b> + 3mm abbondanza (91×91). Tratteggio = taglio. Puntinato = area sicura 67×67 (9mm). <b>Layer:</b> FOIL_871 (rosa 56mm + puntino) + DEBOSS 0.30mm stesso tracciato. Carta Materica Craft pearl + soft-touch 15µ. <b>Stampa:</b> Salva come PDF/X-4 → conserva vettoriale e font. La versione inviata in tipografia deve avere i 2 Pantone nominati <code>PANTONE 2768 C</code> / <code>PANTONE 871 C</code> e 3mm bleed solo su navy retro (qui bleed bianco pearl).
+</div>
+
+<div class="sheet">
+  <div class="crop crop-tl"></div><div class="crop crop-tr"></div><div class="crop crop-bl"></div><div class="crop crop-br"></div>
+  <div class="layer-tag">FOIL 871C + DEBOSS 0.30 — ROSA 56mm</div>
+  <div class="cut">
+    <div class="safe"></div>
+    <div class="rosa">
+      <!-- Rosa master identico a rosa-venti.svg — per foil usa 100% K nominato PANTONE 871C -->
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rosa dei venti — FOIL 871C">
+        <circle cx="100" cy="100" r="92" fill="none" stroke="#0F172A" stroke-width="1.1" opacity=".9"/>
+        <circle cx="100" cy="100" r="88" fill="none" stroke="#D4AF37" stroke-width=".6" opacity=".45"/>
+        <g opacity=".92">
+          <path d="M100 14 L106 42 L100 52 L94 42 Z" fill="#D4AF37" stroke="#0F172A" stroke-width=".6"/>
+          <path d="M100 34 C98 38 94 40 94 44 C94 47 97 49 100 49 C103 49 106 47 106 44 C106 40 102 38 100 34 Z" fill="#0F172A" stroke="#D4AF37" stroke-width=".5"/>
+          <path d="M100 186 L94 158 L100 148 L106 158 Z" fill="#0F172A" stroke="#D4AF37" stroke-width=".55"/>
+          <path d="M186 100 L158 94 L148 100 L158 106 Z" fill="#0F172A" stroke="#D4AF37" stroke-width=".55"/>
+          <path d="M14 100 L42 106 L52 100 L42 94 Z" fill="#0F172A" stroke="#D4AF37" stroke-width=".55"/>
+          <g fill="#0F172A" stroke="#D4AF37" stroke-width=".5"><path d="M158 42 L145 58 L138 64 L152 52 Z"/><path d="M158 158 L152 148 L138 136 L145 142 Z"/><path d="M42 158 L55 142 L62 136 L48 148 Z"/><path d="M42 42 L48 52 L62 64 L55 58 Z"/></g>
+          <g fill="none" stroke="#0F172A" stroke-width=".65" opacity=".85">
+            <path d="M127 28 L122 46 L118 52 L114 46 Z" fill="#FDFCFB"/><path d="M172 73 L154 78 L148 82 L154 86 Z" fill="#FDFCFB"/><path d="M172 127 L154 122 L148 118 L154 114 Z" fill="#FDFCFB"/><path d="M127 172 L122 154 L118 148 L114 154 Z" fill="#FDFCFB"/><path d="M73 172 L78 154 L82 148 L86 154 Z" fill="#FDFCFB"/><path d="M28 127 L46 122 L52 118 L46 114 Z" fill="#FDFCFB"/><path d="M28 73 L46 78 L52 82 L46 86 Z" fill="#FDFCFB"/><path d="M73 28 L78 46 L82 52 L86 46 Z" fill="#FDFCFB"/>
+          </g>
+          <g fill="#0F172A" stroke="#D4AF37" stroke-width=".55"><polygon points="100,68 105,88 100,100 95,88"/><polygon points="132,100 112,105 100,100 112,95"/><polygon points="100,132 95,112 100,100 105,112"/><polygon points="68,100 88,95 100,100 88,105"/><polygon points="122,78 112,88 100,100 112,88" fill="#D4AF37" opacity=".9"/><polygon points="122,122 112,112 100,100 112,112" fill="#D4AF37" opacity=".9"/><polygon points="78,122 88,112 100,100 88,112" fill="#D4AF37" opacity=".9"/><polygon points="78,78 88,88 100,100 88,88" fill="#D4AF37" opacity=".9"/></g>
+          <circle cx="100" cy="100" r="7" fill="#D4AF37" stroke="#0F172A" stroke-width=".7"/><circle cx="100" cy="100" r="2.4" fill="#FDFCFB"/>
+        </g>
+        <g font-family="Cinzel, serif" font-weight="700" text-anchor="middle"><text x="100" y="11" font-size="13" fill="#0F172A">N</text><text x="100" y="196" font-size="10" fill="#0F172A">S</text><text x="190" y="104" font-size="10" fill="#0F172A">E</text><text x="10" y="104" font-size="10" fill="#0F172A">W</text></g>
+      </svg>
+    </div>
+    <div class="brand">
+      <div class="brand-name">Yacht Advisor</div>
+      <div class="brand-payoff">Your happiness is our job</div>
+      <div class="dot"></div>
+    </div>
+  </div>
+  <div class="anno">85×85 R4 — 91×91 con 3mm — FOIL Kurz 42312 PANTONE 871C satinato + DEBOSS 0.30mm — rosa 56mm centrata 42.5/42.5 — pearl Warm Gray 1C</div>
+</div>
+
+<div class="no-print" style="max-width:190mm;margin:6mm auto;font-family:'Montserrat',sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:#6B7280;text-align:center">
+  Apri in Chrome → Stampa (⌘P) → Destinazione: Salva come PDF → Margini: Nessuno → Grafica di sfondo: ON → Scala 100% → Salva. Verifica in Acrobat: dimensioni 91×91mm, font incorporati Cinzel/Montserrat.
+</div>
+</body>
+</html>

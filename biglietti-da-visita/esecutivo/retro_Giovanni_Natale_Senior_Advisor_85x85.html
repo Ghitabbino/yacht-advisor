@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>YACHT ADVISOR — RETRO 85×85 — GIOVANNI NATALE Senior Advisor — ESECUTIVO</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+<style>
+  @page { size: 91mm 91mm; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #E8E9EC; }
+  .sheet {
+    width: 91mm; height: 91mm;
+    position: relative; margin: 12mm auto;
+    background: #0F172A; /* navy 2768C con bleed 3mm su tutti i lati — l'area 85x85 avrà lo stesso navy */
+    box-shadow: 0 12px 40px rgba(2,8,23,.18);
+    overflow: hidden;
+  }
+  .crop { position: absolute; width: 6mm; height: 6mm; border-color: #FDFCFB; opacity: .35; }
+  .crop-tl { top: 1mm; left: 1mm; border-top: 0.3mm solid; border-left: 0.3mm solid; }
+  .crop-tr { top: 1mm; right: 1mm; border-top: 0.3mm solid; border-right: 0.3mm solid; }
+  .crop-bl { bottom: 1mm; left: 1mm; border-bottom: 0.3mm solid; border-left: 0.3mm solid; }
+  .crop-br { bottom: 1mm; right: 1mm; border-bottom: 0.3mm solid; border-right: 0.3mm solid; }
+  .cut {
+    position: absolute; left: 3mm; top: 3mm; width: 85mm; height: 85mm;
+    border: 0.15mm dashed rgba(253,252,251,.18);
+    border-radius: 4mm;
+    overflow: hidden;
+    background: #0F172A;
+  }
+  .safe { position: absolute; left: 9mm; top: 9mm; right: 9mm; bottom: 9mm; border: 0.12mm dotted rgba(253,252,251,.14); border-radius: 2mm; pointer-events: none; }
+  .inner { position: absolute; left: 9mm; top: 9mm; right: 9mm; bottom: 9mm; display: flex; flex-direction: column; justify-content: space-between; }
+  .name { font-family: 'Cinzel', serif; font-weight: 400; font-size: 10pt; letter-spacing: .12em; color: #FDFCFB; line-height: 1.05; }
+  .role { font-family: 'Montserrat', sans-serif; font-weight: 200; font-size: 6pt; letter-spacing: .22em; text-transform: uppercase; color: rgba(212,175,55,.85); margin-top: 2mm; }
+  .contacts { font-family: 'Montserrat', sans-serif; font-weight: 300; font-size: 6.2pt; line-height: 1.95; letter-spacing: .04em; color: rgba(253,252,251,.92); }
+  .contacts a { color: inherit; text-decoration: none; border-bottom: 0.18mm solid rgba(212,175,55,.35); padding-bottom: 0.2mm; }
+  .addr { font-family: 'Montserrat', sans-serif; font-weight: 300; font-size: 5pt; letter-spacing: .14em; text-transform: uppercase; color: rgba(253,252,251,.55); margin-top: 3.5mm; }
+  .qr { position: absolute; right: 0; bottom: 0; width: 8mm; height: 8mm; background: #FDFCFB; border-radius: 0.6mm; display: grid; place-items: center; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 4.2pt; letter-spacing: .12em; color: #0F172A; }
+  .qr::after { content: ""; position: absolute; inset: 0.7mm; border: 0.35mm solid #0F172A; border-radius: 0.3mm; opacity: .14; }
+  .layer-tag { position: absolute; top: 4.2mm; left: 5mm; font-family: 'Montserrat', sans-serif; font-size: 4pt; letter-spacing: .12em; text-transform: uppercase; color: #FDFCFB; background: rgba(212,175,55,.22); border: 0.2mm solid rgba(212,175,55,.45); padding: 0.6mm 1.2mm; border-radius: 2mm; }
+  .anno { position: absolute; bottom: 1.2mm; left: 50%; transform: translateX(-50%); font-family: 'Montserrat', sans-serif; font-size: 4pt; letter-spacing: .12em; text-transform: uppercase; color: rgba(253,252,251,.62); white-space: nowrap; }
+  @media print { html, body { background: white; } .sheet { margin: 0; box-shadow: none; } .no-print { display: none !important; } }
+</style>
+</head>
+<body>
+<div class="no-print" style="max-width:190mm;margin:6mm auto 0;font-family:'Montserrat',sans-serif;font-size:8pt;line-height:1.6;color:#2F3542;background:white;border:1px solid #E5E7EB;border-radius:10px;padding:10px 14px">
+  <b style="font-family:'Cinzel',serif;letter-spacing:.18em;text-transform:uppercase;color:#0F172A">RETRO PERSONA — ESECUTIVO 85×85 R4</b> — Giovanni Natale · Senior Advisor<br>
+  Formato finito 85×85 R4 + 3mm bleed navy su 4 lati (91×91). Tratteggio = taglio R4. Puntinato = area sicura 67×67 (9mm). <b>Layer:</b> PANTONE 2768C fondo + bianco coprente 2 passaggi + FOIL 871C per QR. Testi vettoriali selezionabili. Scala 100%, non adattare.
+</div>
+
+<div class="sheet">
+  <div class="crop crop-tl"></div><div class="crop crop-tr"></div><div class="crop crop-bl"></div><div class="crop crop-br"></div>
+  <div class="layer-tag">PANTONE 2768C + BIANCO COPRENTE + FOIL 871C QR 8mm</div>
+  <div class="cut">
+    <div class="safe"></div>
+    <div class="inner">
+      <div>
+        <div class="name">Giovanni Natale</div>
+        <div class="role">Senior Advisor · Founding</div>
+      </div>
+      <div>
+        <div class="contacts">
+          +39 324 7962468<br>
+          <a href="mailto:giovanni.natale@yachtadvisor.it">giovanni.natale@yachtadvisor.it</a><br>
+          <a href="https://www.yachtadvisor.it">www.yachtadvisor.it</a>
+        </div>
+        <div class="addr">Via Galantina 2A · 02040 Poggio Catino (RI)</div>
+      </div>
+      <div class="qr" title="QR 8mm foil PANTONE 871C → yachtadvisor.it/chi-siamo">QR</div>
+    </div>
+  </div>
+  <div class="anno">85×85 R4 — 91×91 con 3mm bleed navy — PANTONE 2768C + bianco coprente + foil 871C QR 8×8 a 8.5mm da bordo</div>
+</div>
+
+<div class="no-print" style="max-width:190mm;margin:6mm auto;font-family:'Montserrat',sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:#6B7280;text-align:center">
+  Chrome → Stampa (⌘P) → Salva come PDF → Margini Nessuno → Grafica di sfondo ON → Scala 100%. In Acrobat verifica 91×91mm e font Cinzel/Montserrat incorporati. In Illustrator: importa SVG, assegna Pantone 2768C / 871C, traccia taglio R4 su layer FUSTELLA.
+</div>
+</body>
+</html>
