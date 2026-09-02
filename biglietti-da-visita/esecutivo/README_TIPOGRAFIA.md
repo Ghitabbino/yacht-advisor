@@ -65,7 +65,7 @@ Fornire tracciati o incorporare font: **Cinzel** (Google Fonts, SIL OFL) + **Mon
 Giovanni Natale
 Senior Advisor · Founding
 +39 324 7962468
-giovanni.natale@yachtadvisor.it
+yachtadvisor@mail.com
 www.yachtadvisor.it
 Via Galantina 2A · 02040 Poggio Catino (RI)
 QR → https://www.yachtadvisor.it/chi-siamo (o vCard)

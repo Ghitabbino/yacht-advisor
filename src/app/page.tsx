@@ -277,7 +277,7 @@ export default function Home() {
           </div>
           <ContactForm />
           <p className="mt-8 text-center text-[11px] leading-relaxed text-gray-400 font-light">
-            Preferite scrivere direttamente? <a href="mailto:info@yachtadvisor.it" className="text-[#0F172A] underline decoration-[#D4AF37] underline-offset-4 hover:text-[#D4AF37] transition">info@yachtadvisor.it</a> — corrispondenza riservata.
+            Preferite scrivere direttamente? <a href="mailto:yachtadvisor@mail.com" className="text-[#0F172A] underline decoration-[#D4AF37] underline-offset-4 hover:text-[#D4AF37] transition">yachtadvisor@mail.com</a> — corrispondenza riservata.
           </p>
         </div>
       </section>
