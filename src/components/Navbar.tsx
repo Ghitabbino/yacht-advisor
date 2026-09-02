@@ -28,25 +28,25 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-4 lg:px-6 py-5 flex justify-between items-center">
         <Link
           href={isEn ? "/en/about" : "/chi-siamo"}
-          className="flex flex-col items-center text-center group"
+          className="flex flex-col items-center text-center group -ml-2 lg:-ml-3"
           aria-label="Yacht Advisor - Chi siamo"
         >
-          <span className="flex items-center gap-3">
-            <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-14 h-14 md:w-16 md:h-16 opacity-90 group-hover:rotate-180 transition-transform duration-700" />
-            <span className="font-luxury text-[24px] md:text-[32px] font-black tracking-[0.42em] text-[#020817] leading-none">
+          <span className="flex items-center gap-2.5">
+            <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-11 h-11 md:w-14 md:h-14 opacity-90 group-hover:rotate-180 transition-transform duration-700 shrink-0" />
+            <span className="font-luxury text-[26px] md:text-[34px] font-black tracking-[0.42em] text-[#020817] leading-none flex items-center">
               YACHT<span className="text-[#D4AF37]"> ADVISOR</span>
             </span>
           </span>
-          <span className="text-[10px] md:text-[11px] uppercase tracking-[0.45em] text-[#0F172A] mt-2.5 font-semibold">
+          <span className="text-[10px] md:text-[11px] uppercase tracking-[0.45em] text-[#0F172A] mt-2 font-semibold leading-none">
             Your happiness is our job
           </span>
         </Link>
 
         {/* Desktop */}
-        <div className="hidden md:flex items-center gap-8 text-[11px] uppercase tracking-[0.2em] font-semibold text-[#020817]">
+        <div className="hidden md:flex items-center gap-5 lg:gap-7 text-[11px] uppercase tracking-[0.2em] font-semibold text-[#020817]">
           {links.map((l) => (
             <Link
               key={l.href}
@@ -57,7 +57,7 @@ export default function Navbar() {
             </Link>
           ))}
           {/* Language switch */}
-          <div className="flex items-center gap-1 ml-4 border-l border-gray-200 pl-6 text-[11px]">
+          <div className="flex items-center gap-1 ml-3 lg:ml-4 border-l border-gray-200 pl-4 lg:pl-6 text-[11px]">
             <Link
               href="/"
               className={`px-2 py-1 rounded transition ${!isEn ? "bg-[#0F172A] text-[#D4AF37]" : "text-gray-400 hover:text-[#0F172A]"}`}
