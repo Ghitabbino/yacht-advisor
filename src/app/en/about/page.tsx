@@ -90,7 +90,7 @@ export default function Page() {
                     <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mb-1">Education</p>
                     <p className="text-gray-400 font-light">Master SADA — Marketing and Communication</p>
                     <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mt-3 mb-1">Languages</p>
-                    <p className="text-gray-400 font-light">IT native • EN professional • FR working</p>
+                    <p className="text-gray-400 font-light">IT native • EN professional • PT fluent</p>
                   </div>
                 </div>
                 <p className="mt-4 text-[11px] uppercase tracking-[0.2em] text-[#D4AF37]/80">Name & photo on request — base Genoa / Palma</p>
@@ -114,7 +114,7 @@ export default function Page() {
                   </div>
                   <div>
                     <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mb-1">Languages</p>
-                    <p className="text-gray-400 font-light">IT native • EN excellent • FR working</p>
+                    <p className="text-gray-400 font-light">IT native • EN excellent • FR fluent</p>
                     <p className="text-[11px] uppercase tracking-[0.18em] text-[#D4AF37]/80 mt-4">Base Genoa / Palma — on request</p>
                   </div>
                 </div>
@@ -122,10 +122,6 @@ export default function Page() {
             </div>
           </div>
         </div>
-
-        <p className="mt-12 text-center text-sm italic font-light text-gray-500 max-w-2xl mx-auto border-t border-white/10 pt-8">
-          The large compass is clickable: wherever you see it, it brings you here.
-        </p>
 
         <div className="mt-10 text-center">
           <Link
