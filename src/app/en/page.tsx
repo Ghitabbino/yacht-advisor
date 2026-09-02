@@ -82,10 +82,13 @@ export default function EnHome() {
 
           <div className="space-y-6 text-[17px] leading-[1.85] font-light text-gray-600 max-w-3xl mx-auto">
             <p>
-              Purchasing a yacht represents a significant investment, with a wide range of vessels available on the market, each characterised by specific construction properties and intended use. Often, the prospective owner does not possess the skills and knowledge necessary to make a choice that perfectly fits their lifestyle and expectations in the nautical field.
+              Purchasing a yacht represents a significant investment, with a wide range of vessels available on the market, each characterised by specific construction features and intended use.
             </p>
             <p>
-              Moreover, crew management can be complex, and a wrong choice or inefficient crew management can significantly compromise the pleasure of using the yacht.
+              The prospective owner is thus faced with a broad and often conflicting array of options, making it difficult to identify the choice best suited to their lifestyle and expectations at sea.
+            </p>
+            <p>
+              Equally complex is the selection of the crew, an area often unfamiliar to the new owner. Finding one&apos;s way in this field requires time and energy; moreover, an ill-judged recruitment risks compromising not only the management of the vessel, but the entire holiday experience on board one&apos;s own yacht.
             </p>
             <p className="text-[#0F172A] font-normal">
               Yacht Advisor was created to bridge this gap: first we understand your needs, then we indicate the tailored solution, with independence, documented verification and discretion — as a <em>single integrated team</em> alongside you, with global network and fiduciary protection. Our mission is your complete satisfaction.

@@ -77,10 +77,13 @@ export default function Home() {
 
           <div className="space-y-6 text-[17px] leading-[1.85] font-light text-gray-600 max-w-3xl mx-auto">
             <p>
-              L&apos;acquisto di uno yacht rappresenta un investimento significativo, con una vasta gamma di imbarcazioni disponibili sul mercato, ognuna caratterizzata da specifiche proprietà costruttive e finalità d&apos;uso. Spesso, il potenziale armatore non possiede le competenze e le conoscenze necessarie per effettuare una scelta che si adatti perfettamente al proprio stile di vita e alle proprie aspettative in ambito nautico.
+              L&apos;acquisto di uno yacht rappresenta un investimento significativo, con una vasta gamma di imbarcazioni disponibili sul mercato, ognuna caratterizzata da specifiche proprietà costruttive e finalità d&apos;uso.
             </p>
             <p>
-              Inoltre, la gestione degli equipaggi può risultare complessa, e una scelta errata o una gestione inefficiente dell&apos;equipaggio può compromettere significativamente il piacere di utilizzo dello yacht.
+              Il potenziale armatore si ritrova così di fronte a un ampio ventaglio di opzioni, spesso contrastanti, che rendono difficile individuare la scelta più adatta al proprio stile di vita e alle proprie aspettative in ambito nautico.
+            </p>
+            <p>
+              Altrettanto complessa si rivela la selezione dell&apos;equipaggio, un ambito spesso inedito per il nuovo armatore. Orientarsi in questo settore richiede tempo ed energia; d&apos;altronde, un reclutamento errato rischia di compromettere non solo la gestione della barca, ma l&apos;intera esperienza di vacanza a bordo del proprio yacht.
             </p>
             <p className="text-[#0F172A] font-normal">
               Yacht Advisor nasce per colmare questa distanza: prima comprendiamo i vostri bisogni, poi indichiamo la soluzione su misura, con indipendenza, verifiche documentate e riservatezza — come <em>single integrated team</em> al vostro fianco, con rete globale e tutela fiduciaria. La nostra missione è la vostra piena soddisfazione.
