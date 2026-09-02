@@ -32,10 +32,10 @@ export default function Navbar() {
         <Link href={isEn ? "/en/about" : "/chi-siamo"} className="flex justify-start group shrink-0" aria-label="Yacht Advisor - Chi siamo">
           <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-10 h-10 md:w-12 md:h-12 opacity-95 group-hover:rotate-180 transition-transform duration-700 shrink-0 drop-shadow-[0_2px_6px_rgba(15,23,42,0.12)]" />
         </Link>
-        <Link href={isEn ? "/en/about" : "/chi-siamo"} className="flex flex-col items-center text-center group shrink-0 mx-2" aria-label="Yacht Advisor - Chi siamo">
-          <span className="font-luxury text-[19px] md:text-[24px] font-black tracking-[0.32em] text-[#020817] leading-none text-center">YACHT</span>
-          <span className="font-luxury text-[19px] md:text-[24px] font-black tracking-[0.32em] text-[#D4AF37] leading-none text-center">ADVISOR</span>
-          <span className="text-[9px] md:text-[10px] uppercase tracking-[0.38em] text-[#0F172A] mt-1 font-semibold leading-none text-center whitespace-nowrap">
+        <Link href={isEn ? "/en/about" : "/chi-siamo"} className="flex flex-col items-center text-center group shrink-0 mx-3" aria-label="Yacht Advisor - Chi siamo">
+          <span className="font-luxury text-[21px] md:text-[26px] font-black tracking-[0.36em] text-[#020817] leading-none text-center">YACHT</span>
+          <span className="font-luxury text-[21px] md:text-[26px] font-black tracking-[0.36em] text-[#D4AF37] leading-none text-center">ADVISOR</span>
+          <span className="text-[10px] md:text-[11px] uppercase tracking-[0.40em] text-[#0F172A] mt-1.5 font-semibold leading-none text-center whitespace-nowrap">
             Your happiness is our job
           </span>
         </Link>
