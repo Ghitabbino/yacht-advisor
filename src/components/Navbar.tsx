@@ -46,7 +46,7 @@ export default function Navbar() {
               <Link
                 key={l.href}
                 href={l.href}
-                className="hover:text-[#D4AF37] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37] focus-visible:ring-offset-2 rounded-sm whitespace-nowrap"
+                className="hover:text-[#D4AF37] transition-colors focus:outline-none whitespace-nowrap"
               >
                 {l.label}
               </Link>
