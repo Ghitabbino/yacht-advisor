@@ -33,24 +33,14 @@ export default function EnHome() {
         aria-label="Hero"
         className="relative h-[92vh] min-h-[680px] flex items-center justify-center overflow-hidden bg-[#0F172A]"
       >
-        <div className="absolute inset-0" aria-hidden="true">
-          <Image
-            src="https://images.unsplash.com/photo-1567899154113-9d511797d17b?auto=format&fit=crop&w=1920&q=80"
-            alt="Luxury yacht at sunset"
-            fill
-            priority
-            sizes="100vw"
-            quality={75}
-            className="object-cover object-center"
-          />
-          <div
-            className="absolute inset-0"
-            style={{
-              background: "linear-gradient(to bottom, rgba(2,8,23,0.65), rgba(15,23,42,0.45), rgba(2,8,23,0.82))",
-            }}
-            aria-hidden="true"
-          />
-        </div>
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `linear-gradient(to bottom, rgba(2,8,23,0.65), rgba(15,23,42,0.45), rgba(2,8,23,0.82)), url('https://images.unsplash.com/photo-1567899154113-9d511797d17b?auto=format&fit=crop&w=1920&q=80')`,
+          }}
+          role="img"
+          aria-label="Luxury yacht at sunset"
+        />
         <div className="absolute inset-0 ring-1 ring-white/10 ring-inset pointer-events-none" aria-hidden />
         <div className="relative text-center text-white px-6 max-w-5xl">
           <p className="text-[11px] tracking-[0.45em] uppercase text-white/70 mb-6 font-light">
