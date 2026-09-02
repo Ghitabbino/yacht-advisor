@@ -55,7 +55,7 @@ export default function Navbar() {
             <div className="flex items-center gap-1 ml-3 lg:ml-4 border-l border-gray-200 pl-4 lg:pl-6 text-[11px]">
               <Link
                 href="/"
-                className={`px-2 py-1 rounded transition ${!isEn ? "bg-[#0F172A] text-[#D4AF37]" : "text-gray-400 hover:text-[#0F172A]"}`}
+                className={`px-2 py-1 transition ${!isEn ? "text-[#D4AF37] font-semibold" : "text-gray-400 hover:text-[#0F172A]"}`}
                 aria-current={!isEn ? "page" : undefined}
               >
                 IT
@@ -63,7 +63,7 @@ export default function Navbar() {
               <span className="text-gray-300">/</span>
               <Link
                 href="/en"
-                className={`px-2 py-1 rounded transition ${isEn ? "bg-[#0F172A] text-[#D4AF37]" : "text-gray-400 hover:text-[#0F172A]"}`}
+                className={`px-2 py-1 transition ${isEn ? "text-[#D4AF37] font-semibold" : "text-gray-400 hover:text-[#0F172A]"}`}
                 aria-current={isEn ? "page" : undefined}
               >
                 EN
@@ -74,8 +74,8 @@ export default function Navbar() {
           {/* Mobile button */}
           <div className="flex items-center gap-3 md:hidden">
             <div className="flex items-center gap-1 text-[11px] font-semibold">
-              <Link href="/" className={`px-2 py-1 ${!isEn ? "text-[#D4AF37] bg-[#0F172A] rounded" : "text-gray-400"}`}>IT</Link>
-              <Link href="/en" className={`px-2 py-1 ${isEn ? "text-[#D4AF37] bg-[#0F172A] rounded" : "text-gray-400"}`}>EN</Link>
+              <Link href="/" className={`px-2 py-1 ${!isEn ? "text-[#D4AF37] font-semibold" : "text-gray-400"}`}>IT</Link>
+              <Link href="/en" className={`px-2 py-1 ${isEn ? "text-[#D4AF37] font-semibold" : "text-gray-400"}`}>EN</Link>
             </div>
             <button
               onClick={() => setOpen(!open)}
