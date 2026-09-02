@@ -8,14 +8,16 @@
   @page { size: 91mm 91mm; margin: 0; }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; background: #E8E9EC; }
-  .sheet { width: 91mm; height: 91mm; position: relative; margin: 12mm auto; background: #0F172A; box-shadow: 0 12px 40px rgba(2,8,23,.18); overflow: hidden; }
+  .sheet { width: 91mm; height: 91mm; position: relative; margin: 12mm auto; background: #0F172A; box-shadow: 0 12px 40px rgba(2,8,23,.18); overflow: hidden;
+    border-radius: 4mm; }
   .crop { position: absolute; width: 6mm; height: 6mm; border-color: #FDFCFB; opacity: .35; }
   .crop-tl { top: 1mm; left: 1mm; border-top: 0.3mm solid; border-left: 0.3mm solid; }
   .crop-tr { top: 1mm; right: 1mm; border-top: 0.3mm solid; border-right: 0.3mm solid; }
   .crop-bl { bottom: 1mm; left: 1mm; border-bottom: 0.3mm solid; border-left: 0.3mm solid; }
   .crop-br { bottom: 1mm; right: 1mm; border-bottom: 0.3mm solid; border-right: 0.3mm solid; }
-  .cut { position: absolute; left: 3mm; top: 3mm; width: 85mm; height: 85mm; border: 0.15mm dashed rgba(253,252,251,.18); overflow: hidden; background: #0F172A; }
-  .safe { position: absolute; left: 9mm; top: 9mm; right: 9mm; bottom: 9mm; border: 0.12mm dotted rgba(253,252,251,.14); pointer-events: none; }
+  .cut { position: absolute; left: 3mm; top: 3mm; width: 85mm; height: 85mm; border: 0.15mm dashed rgba(253,252,251,.18); overflow: hidden;
+    border-radius: 4mm; background: #0F172A; }
+  .safe { position: absolute; left: 9mm; top: 9mm; right: 9mm; bottom: 9mm; border: 0.12mm dotted rgba(253,252,251,.14); pointer-events: none; border-radius: 2mm; }
   .inner { position: absolute; left: 9mm; top: 9mm; right: 9mm; bottom: 9mm; display: flex; flex-direction: column; justify-content: space-between; }
   .name { font-family: 'Cinzel', serif; font-weight: 400; font-size: 13pt; letter-spacing: .10em; color: #FDFCFB; line-height: 1.05; }
   .role { font-family: 'Montserrat', sans-serif; font-weight: 200; font-size: 7.5pt; letter-spacing: .22em; text-transform: uppercase; color: rgba(212,175,55,.88); margin-top: 2.2mm; }
@@ -31,7 +33,7 @@
 </head>
 <body>
 <div class="no-print" style="max-width:190mm;margin:6mm auto 0;font-family:'Montserrat',sans-serif;font-size:8pt;line-height:1.6;color:#2F3542;background:white;border:1px solid #E5E7EB;border-radius:10px;padding:10px 14px">
-  <b style="font-family:'Cinzel',serif;letter-spacing:.18em;text-transform:uppercase;color:#0F172A">RETRO PERSONA — 85×85 angoli vivi — TESTI INGRANDITI</b><br>
+  <b style="font-family:'Cinzel',serif;letter-spacing:.18em;text-transform:uppercase;color:#0F172A">RETRO PERSONA — 85×85 R4 — bordi arrotondati — TESTI INGRANDITI</b><br>
   Formato 85×85 angoli 90° + 3mm bleed navy (91×91). <b>Modifiche:</b> no bordi stondati, testi ingranditi per leggibilità — nome <b>13pt</b> (era 10pt), ruolo <b>7.5pt</b>, contatti <b>8pt</b> (era 6.2pt), indirizzo <b>6pt</b>. QR 9mm. Verifica a 40cm: tutto leggibile anche con biglietto piccolo.
 </div>
 <div class="sheet">
@@ -55,7 +57,7 @@
       <div class="qr" title="QR 9mm foil PANTONE 871C → yachtadvisor.it/chi-siamo">QR</div>
     </div>
   </div>
-  <div class="anno">85×85 angoli vivi — 91×91 bleed navy — PANTONE 2768C + bianco 2 passaggi + foil 871C QR 9×9 — testi ingranditi leggibili</div>
+  <div class="anno">85×85 R4 — bordi arrotondati — 91×91 bleed navy — PANTONE 2768C + bianco 2 passaggi + foil 871C QR 9×9 — testi ingranditi leggibili</div>
 </div>
 <div class="no-print" style="max-width:190mm;margin:6mm auto;font-family:'Montserrat',sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:#6B7280;text-align:center">
   Scala 100% — Verifica 91×91mm.

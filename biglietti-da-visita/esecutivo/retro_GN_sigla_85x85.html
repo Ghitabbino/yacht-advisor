@@ -14,14 +14,14 @@
   .crop-tr{top:1mm;right:1mm;border-top:.3mm solid;border-right:.3mm solid}
   .crop-bl{bottom:1mm;left:1mm;border-bottom:.3mm solid;border-left:.3mm solid}
   .crop-br{bottom:1mm;right:1mm;border-bottom:.3mm solid;border-right:.3mm solid}
-  .cut{position:absolute;left:3mm;top:3mm;width:85mm;height:85mm;border:.15mm dashed rgba(253,252,251,.18);border-radius:4mm;overflow:hidden;background:#0F172A}
-  .safe{position:absolute;left:9mm;top:9mm;right:9mm;bottom:9mm;border:.12mm dotted rgba(253,252,251,.14);border-radius:2mm;pointer-events:none}
+  .cut{position:absolute;left:3mm;top:3mm;width:85mm;height:85mm;border:.15mm dashed rgba(253,252,251,.18);overflow:hidden;background:#0F172A}
+  .safe{position:absolute;left:9mm;top:9mm;right:9mm;bottom:9mm;border:.12mm dotted rgba(253,252,251,.14);pointer-events:none}
   .inner{position:absolute;inset:9mm;display:flex;flex-direction:column;justify-content:space-between;align-items:center;text-align:center}
-  .monogram{font-family:'Cinzel',serif;font-weight:700;font-size:24pt;letter-spacing:.35em;color:#FDFCFB;line-height:1}
-  .monogram-sub{font-family:'Montserrat',sans-serif;font-weight:200;font-size:6pt;letter-spacing:.34em;text-transform:uppercase;color:rgba(212,175,55,.85);margin-top:3mm}
-  .contacts{font-family:'Montserrat',sans-serif;font-weight:300;font-size:6.2pt;line-height:1.9;letter-spacing:.04em;color:rgba(253,252,251,.88);text-align:center}
+  .monogram{font-family:'Cinzel',serif;font-weight:700;font-size:28pt;letter-spacing:.32em;color:#FDFCFB;line-height:1}
+  .monogram-sub{font-family:'Montserrat',sans-serif;font-weight:200;font-size:7.5pt;letter-spacing:.32em;text-transform:uppercase;color:rgba(212,175,55,.85);margin-top:3mm}
+  .contacts{font-family:'Montserrat',sans-serif;font-weight:300;font-size:8pt;line-height:1.9;letter-spacing:.03em;color:rgba(253,252,251,.92);text-align:center}
   .contacts a{color:inherit;text-decoration:none;border-bottom:.18mm solid rgba(212,175,55,.35);padding-bottom:.2mm}
-  .qr{position:absolute;right:0;bottom:0;width:8mm;height:8mm;background:#FDFCFB;border-radius:.6mm;display:grid;place-items:center;font-family:'Montserrat',sans-serif;font-weight:700;font-size:4.2pt;letter-spacing:.12em;color:#0F172A}
+  .qr{position:absolute;right:0;bottom:0;width:9mm;height:9mm;background:#FDFCFB;border-radius:.6mm;display:grid;place-items:center;font-family:'Montserrat',sans-serif;font-weight:700;font-size:4.6pt;letter-spacing:.12em;color:#0F172A}
   .qr::after{content:"";position:absolute;inset:.7mm;border:.35mm solid #0F172A;border-radius:.3mm;opacity:.14}
   .layer-tag{position:absolute;top:4.2mm;left:5mm;font-family:'Montserrat',sans-serif;font-size:4pt;letter-spacing:.12em;text-transform:uppercase;color:#FDFCFB;background:rgba(212,175,55,.22);border:.2mm solid rgba(212,175,55,.45);padding:.6mm 1.2mm;border-radius:2mm}
   .anno{position:absolute;bottom:1.2mm;left:50%;transform:translateX(-50%);font-family:'Montserrat',sans-serif;font-size:4pt;letter-spacing:.12em;text-transform:uppercase;color:rgba(253,252,251,.62);white-space:nowrap}
@@ -30,12 +30,11 @@
 </head>
 <body>
 <div class="no-print" style="max-width:190mm;margin:6mm auto 0;font-family:'Montserrat',sans-serif;font-size:8pt;line-height:1.6;color:#2F3542;background:white;border:1px solid #E5E7EB;border-radius:10px;padding:10px 14px">
-  <b style="font-family:'Cinzel',serif;letter-spacing:.18em;text-transform:uppercase;color:#0F172A">RETRO SIGLA — VARIANTE ULTRA-MINIMALE 85×85</b> — Solo sigla <b>G.N.</b> + contatti, senza nome esteso. Per chi vuole massima riservatezza / monogram cartotecnico.<br>
-  Scegli 1 delle 2 varianti retro: <code>retro_Giovanni_Natale</code> (default fiduciario) <b>oppure</b> <code>retro_GN_sigla</code> (stealth siglato).
+  <b style="font-family:'Cinzel',serif;letter-spacing:.18em;text-transform:uppercase;color:#0F172A">RETRO SIGLA — 85×85 angoli vivi — G.N. INGRANDITO</b> — Sigla <b>28pt</b> (era 24pt), contatti <b>8pt</b> — alternativa ultra-minimale.
 </div>
 <div class="sheet">
   <div class="crop crop-tl"></div><div class="crop crop-tr"></div><div class="crop crop-bl"></div><div class="crop crop-br"></div>
-  <div class="layer-tag">VARIANTE SIGLA — PANTONE 2768C + FOIL 871C</div>
+  <div class="layer-tag">VARIANTE SIGLA — PANTONE 2768C + FOIL 871C — TESTI XL</div>
   <div class="cut">
     <div class="safe"></div>
     <div class="inner">
@@ -51,10 +50,7 @@
       <div class="qr">QR</div>
     </div>
   </div>
-  <div class="anno">85×85 R4 — siglato G.N. Cinzel 24pt tracking 0.35em — contatti 6.2pt — QR 8mm</div>
-</div>
-<div class="no-print" style="max-width:190mm;margin:6mm auto;font-family:'Montserrat',sans-serif;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:#6B7280;text-align:center">
-  Stessa carta e finiture del retro standard — cambia solo il blocco nome. Il fronte resta identico (foil+deboss bussola 56mm).
+  <div class="anno">85×85 angoli vivi — siglato G.N. 28pt — contatti 8pt — QR 9mm</div>
 </div>
 </body>
 </html>
