@@ -5,9 +5,11 @@ type Props = {
   cta?: string;
 };
 
+import Link from "next/link";
+
 export default function ServiceCard({ href, title, description, cta = "Approfondisci →" }: Props) {
   return (
-    <a
+    <Link
       href={href}
       className="group relative bg-[#1E293B] p-8 md:p-9 border border-white/10 flex flex-col h-full transition-all duration-500 hover:-translate-y-2 hover:border-[#D4AF37]/60 hover:shadow-[0_20px_50px_rgba(2,8,23,0.5)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37] focus-visible:ring-offset-2 focus-visible:ring-offset-[#0F172A] overflow-hidden"
     >
@@ -21,6 +23,6 @@ export default function ServiceCard({ href, title, description, cta = "Approfond
       <span className="mt-7 text-center text-[10px] uppercase tracking-[0.22em] text-gray-500 group-hover:text-[#D4AF37] transition-colors font-semibold">
         {cta}
       </span>
-    </a>
+    </Link>
   );
 }

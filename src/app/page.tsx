@@ -87,7 +87,7 @@ export default function Home() {
             <div className="w-16 h-px bg-[#D4AF37] mx-auto mt-8 mb-10" aria-hidden />
           </div>
 
-          <div className="space-y-6 text-[17px] leading-[1.85] font-light text-gray-600 max-w-3xl mx-auto text-justify hyphens-auto [text-align:justify]">
+          <div className="space-y-6 text-[17px] leading-[1.85] font-light text-gray-600 max-w-3xl mx-auto text-justify hyphens-none break-normal [text-align:justify] [hyphens:none] [word-break:normal] [overflow-wrap:normal]">
             <p>
               L&apos;acquisto di uno yacht rappresenta un investimento significativo, con una vasta gamma di imbarcazioni disponibili sul mercato, ognuna caratterizzata da specifiche proprietà costruttive e finalità d&apos;uso.
             </p>

@@ -4,6 +4,6 @@ const nextConfig: NextConfig = {
   images: { unoptimized: true },
   trailingSlash: true,
   basePath: "/yacht-advisor",
-  assetPrefix: "/yacht-advisor/",
+  assetPrefix: "/yacht-advisor",
 };
 export default nextConfig;

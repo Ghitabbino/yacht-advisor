@@ -92,7 +92,7 @@ export default function EnHome() {
             <div className="w-16 h-px bg-[#D4AF37] mx-auto mt-8 mb-10" aria-hidden />
           </div>
 
-          <div className="space-y-6 text-[17px] leading-[1.85] font-light text-gray-600 max-w-3xl mx-auto text-justify hyphens-auto [text-align:justify]">
+          <div className="space-y-6 text-[17px] leading-[1.85] font-light text-gray-600 max-w-3xl mx-auto text-justify hyphens-none break-normal [text-align:justify] [hyphens:none] [word-break:normal] [overflow-wrap:normal]">
             <p>
               Purchasing a yacht represents a significant investment, with a wide range of vessels available on the market, each characterised by specific construction features and intended use.
             </p>
