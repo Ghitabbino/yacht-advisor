@@ -8,6 +8,7 @@ const linksIt = [
   { href: "/#la-premessa", label: "La Premessa" },
   { href: "/#servizi", label: "Servizi" },
   { href: "/#metodo", label: "Il Metodo" },
+  { href: "/chi-siamo", label: "Chi siamo" },
   { href: "/#contatti", label: "Contattaci" },
 ];
 
@@ -15,6 +16,7 @@ const linksEn = [
   { href: "/en#premise", label: "Premise" },
   { href: "/en#services", label: "Services" },
   { href: "/en#method", label: "Method" },
+  { href: "/en/about", label: "About" },
   { href: "/en#contact", label: "Contact" },
 ];
 
