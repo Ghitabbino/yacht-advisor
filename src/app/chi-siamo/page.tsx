@@ -97,6 +97,30 @@ export default function Page() {
               </div>
             </div>
           </div>
+          <div className="border border-[#D4AF37]/20 rounded-xl bg-white/[0.04] p-6 md:p-8">
+            <div className="flex flex-col md:flex-row gap-6">
+              <div className="w-24 h-24 md:w-28 md:h-28 rounded-full bg-gradient-to-br from-[#D4AF37]/30 to-white/10 border border-[#D4AF37]/30 grid place-items-center text-[#D4AF37] text-xl font-luxury shrink-0">YA</div>
+              <div className="flex-1">
+                <p className="text-[11px] tracking-[0.3em] uppercase text-[#D4AF37] font-semibold">Advisor — Yacht Advisor</p>
+                <h2 className="font-luxury text-xl md:text-2xl mt-1">Advisor</h2>
+                <p className="text-[11px] tracking-[0.2em] uppercase text-gray-400 mt-1">Gestione del Personale e Problem Solving — Yacht Advisor</p>
+                <p className="text-gray-400 leading-relaxed text-[14px] font-light mt-4">
+                  In Yacht Advisor è il riferimento per la <strong className="text-gray-200 font-normal">gestione del personale e il problem solving operativo</strong> dell’equipaggio. Esperienza consolidata in <strong className="text-gray-200 font-normal">importanti realtà leader del settore accoglienza</strong>, maturata con responsabilità su team e servizio, e come <strong className="text-gray-200 font-normal">Chief Stewardess</strong> a bordo di <strong className="text-gray-200 font-normal">numerosi yacht di prestigio</strong>. Metodo: definizione del profilo ideale per compatibilità con armatore e programma, verifica referenze incrociate, costruzione di standard leggeri ma vincolanti e presidio strutturato nei primi 60 giorni. Approccio discreto, anticipazione e soluzione — non escalation.
+                </p>
+                <div className="mt-5 grid sm:grid-cols-2 gap-4 text-[13px]">
+                  <div>
+                    <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mb-1">Competenze chiave</p>
+                    <p className="text-gray-400 font-light leading-relaxed">Capacità nel recruitment • Selezione del personale • Selezione e valutazione equipaggi per attitudine e compatibilità • Verifica referenze incrociate e colloqui strutturati • Definizione di standard di servizio e SOP leggeri ma vincolanti • Training on-the-job su accoglienza, mise en place, servizio e housekeeping • Costruzione di manuali di bordo su misura e check-list operative • Pianificazione turni, gestione conflitti e dinamiche di gruppo • Problem solving operativo in tempo reale con discrezione</p>
+                  </div>
+                  <div>
+                    <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mb-1">Lingue</p>
+                    <p className="text-gray-400 font-light">IT madrelingua • EN ottimo • FR buono</p>
+                    <p className="text-[11px] uppercase tracking-[0.18em] text-[#D4AF37]/80 mt-4">Base Genova / Palma — su indicazione</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <p className="mt-12 text-center text-sm italic font-light text-gray-500 max-w-2xl mx-auto border-t border-white/10 pt-8">

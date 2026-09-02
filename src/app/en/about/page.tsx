@@ -97,6 +97,30 @@ export default function Page() {
               </div>
             </div>
           </div>
+          <div className="border border-[#D4AF37]/20 rounded-xl bg-white/[0.04] p-6 md:p-8">
+            <div className="flex flex-col md:flex-row gap-6">
+              <div className="w-24 h-24 md:w-28 md:h-28 rounded-full bg-gradient-to-br from-[#D4AF37]/30 to-white/10 border border-[#D4AF37]/30 grid place-items-center text-[#D4AF37] text-xl font-luxury shrink-0">YA</div>
+              <div className="flex-1">
+                <p className="text-[11px] tracking-[0.3em] uppercase text-[#D4AF37] font-semibold">Advisor — Yacht Advisor</p>
+                <h2 className="font-luxury text-xl md:text-2xl mt-1">Advisor</h2>
+                <p className="text-[11px] tracking-[0.2em] uppercase text-gray-400 mt-1">Personnel Management & Problem Solving — Yacht Advisor</p>
+                <p className="text-gray-400 leading-relaxed text-[14px] font-light mt-4">
+                  At Yacht Advisor, the point of reference for <strong className="text-gray-200 font-normal">personnel management and operational problem solving</strong> for crew. Consolidated experience in <strong className="text-gray-200 font-normal">leading organisations in the hospitality sector</strong>, with responsibility for teams and service, and as <strong className="text-gray-200 font-normal">Chief Stewardess</strong> on <strong className="text-gray-200 font-normal">numerous prestigious yachts</strong>. Method: ideal profile definition for compatibility with owner and programme, cross-checked references, building light yet binding standards and structured supervision in the first 60 days. Discreet approach, anticipation and solution — not escalation.
+                </p>
+                <div className="mt-5 grid sm:grid-cols-2 gap-4 text-[13px]">
+                  <div>
+                    <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mb-1">Core expertise</p>
+                    <p className="text-gray-400 font-light leading-relaxed">Recruitment capability • Personnel selection • Crew selection and assessment by attitude and compatibility • Cross-checked references and structured interviews • Service standards and light yet binding SOPs • On-the-job training in hospitality, mise en place, service and housekeeping • Bespoke onboard manuals and operational checklists • Shift planning, conflict and group dynamics management • Real-time operational problem solving with discretion</p>
+                  </div>
+                  <div>
+                    <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mb-1">Languages</p>
+                    <p className="text-gray-400 font-light">IT native • EN excellent • FR working</p>
+                    <p className="text-[11px] uppercase tracking-[0.18em] text-[#D4AF37]/80 mt-4">Base Genoa / Palma — on request</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <p className="mt-12 text-center text-sm italic font-light text-gray-500 max-w-2xl mx-auto border-t border-white/10 pt-8">
