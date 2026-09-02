@@ -28,11 +28,11 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-4 lg:px-6 py-5 flex justify-between items-center gap-4">
+      <div className="max-w-7xl mx-auto px-4 lg:px-6 py-5 flex justify-between items-center gap-6">
         <Link href={isEn ? "/en/about" : "/chi-siamo"} className="flex justify-start group shrink-0" aria-label="Yacht Advisor - Chi siamo">
           <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-11 h-11 md:w-14 md:h-14 opacity-95 group-hover:rotate-180 transition-transform duration-700 shrink-0 drop-shadow-[0_2px_8px_rgba(15,23,42,0.14)] [filter:drop-shadow(0_1px_3px_rgba(212,175,55,0.18))]" />
         </Link>
-        <Link href={isEn ? "/en/about" : "/chi-siamo"} className="flex flex-col items-center text-center group absolute left-1/2 -translate-x-1/2" aria-label="Yacht Advisor - Chi siamo">
+        <Link href={isEn ? "/en/about" : "/chi-siamo"} className="flex-1 flex flex-col items-center justify-center text-center group px-4" aria-label="Yacht Advisor - Chi siamo">
           <span className="font-luxury text-[23px] md:text-[29px] font-black tracking-[0.40em] text-[#020817] leading-none text-center">YACHT</span>
           <span className="font-luxury text-[23px] md:text-[29px] font-black tracking-[0.40em] text-[#D4AF37] leading-none text-center">ADVISOR</span>
           <span className="text-[10.5px] md:text-[11.5px] uppercase tracking-[0.44em] text-[#0F172A] mt-1.5 font-semibold leading-none text-center whitespace-nowrap">
