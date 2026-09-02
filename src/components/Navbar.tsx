@@ -34,14 +34,14 @@ export default function Navbar() {
           className="flex flex-col items-center text-center group -ml-2 lg:-ml-3"
           aria-label="Yacht Advisor - Chi siamo"
         >
-          <span className="flex items-center gap-3">
-            <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-11 h-11 md:w-14 md:h-14 opacity-90 group-hover:rotate-180 transition-transform duration-700 shrink-0" />
-            <span className="flex flex-col leading-none">
-              <span className="font-luxury text-[22px] md:text-[28px] font-black tracking-[0.38em] text-[#020817] leading-none">YACHT</span>
-              <span className="font-luxury text-[22px] md:text-[28px] font-black tracking-[0.38em] text-[#D4AF37] leading-none">ADVISOR</span>
+          <span className="flex items-center justify-center gap-3">
+            <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-11 h-11 md:w-14 md:h-14 opacity-95 group-hover:rotate-180 transition-transform duration-700 shrink-0 drop-shadow-[0_2px_8px_rgba(15,23,42,0.14)] [filter:drop-shadow(0_1px_3px_rgba(212,175,55,0.18))]" />
+            <span className="flex flex-col items-center text-center leading-none">
+              <span className="font-luxury text-[23px] md:text-[29px] font-black tracking-[0.40em] text-[#020817] leading-none">YACHT</span>
+              <span className="font-luxury text-[23px] md:text-[29px] font-black tracking-[0.40em] text-[#D4AF37] leading-none">ADVISOR</span>
             </span>
           </span>
-          <span className="text-[10px] md:text-[11px] uppercase tracking-[0.42em] text-[#0F172A] mt-1.5 font-semibold leading-none">
+          <span className="text-[10.5px] md:text-[11.5px] uppercase tracking-[0.44em] text-[#0F172A] mt-1.5 font-semibold leading-none text-center">
             Your happiness is our job
           </span>
         </Link>
