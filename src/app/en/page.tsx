@@ -192,7 +192,7 @@ export default function EnHome() {
             <div className="text-center md:border-x md:border-gray-200 md:px-8">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">02</div>
               <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Independent, documented verification</h3>
-              <p className="text-sm leading-relaxed font-light text-gray-600">We operate with no commissions from yards or brokers and no sales mandates: our independence is substantive, not declared. Every recommendation results from in-depth technical verification, systematic comparison of alternatives, analysis of real comparables, examination of documentation, maintenance history and cross-checked sources. Each recommendation is documented, reasoned point by point and solely in your interest, with full transparency on limits, risks and discarded alternatives, so that every choice is understandable, defensible and free of surprises.</p>
+              <p className="text-sm leading-relaxed font-light text-gray-600">We operate with no commissions from yards, brokers or suppliers and no sales mandates: our independence is substantive, not declared. <strong className="font-normal text-[#0F172A]">We receive no fees from third parties.</strong> Our fee — clear and agreed — applies only after we have shared with you how to structure the path ahead, and reflects solely the advisory work performed. Every recommendation results from in-depth technical verification, systematic comparison of alternatives, analysis of real comparables, examination of documentation, maintenance history and cross-checked sources. Each recommendation is documented, reasoned point by point and solely in your interest, with full transparency on limits, risks and discarded alternatives, so that every choice is understandable, defensible and free of surprises.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">03</div>
@@ -217,7 +217,7 @@ export default function EnHome() {
           <div className="grid md:grid-cols-4 gap-8 mt-12 text-center">
             <div>
               <p className="font-luxury text-[11px] uppercase tracking-[0.2em] text-[#D4AF37] mb-2">01 — Client first</p>
-              <p className="text-[13px] leading-relaxed font-light text-gray-400">Your interest comes first. No third-party incentives, no conflicts.</p>
+              <p className="text-[13px] leading-relaxed font-light text-gray-400">Your interest comes first. No third-party commissions; only a clear, agreed fee for the advisory work.</p>
             </div>
             <div className="md:border-x md:border-white/10 md:px-6">
               <p className="font-luxury text-[11px] uppercase tracking-[0.2em] text-[#D4AF37] mb-2">02 — Rigour & verification</p>

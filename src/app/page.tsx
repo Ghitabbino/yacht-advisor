@@ -183,7 +183,7 @@ export default function Home() {
             <div className="text-center md:border-x md:border-gray-200 md:px-8">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">02</div>
               <h3 className="font-luxury text-[13px] uppercase tracking-[0.18em] text-[#020817] mb-3">Verifica indipendente e documentata</h3>
-              <p className="text-sm leading-relaxed font-light text-gray-600">Operiamo senza provvigioni da cantieri o broker e senza mandati di vendita: la nostra indipendenza è sostanziale, non dichiarata. Ogni indicazione è il risultato di verifiche tecniche approfondite, confronto sistematico tra alternative, analisi di comparabili reali, esame di documentazione, storico manutentivo e fonti incrociate. Ogni raccomandazione è documentata, motivata punto per punto e orientata esclusivamente alla tutela del vostro interesse, con piena trasparenza su limiti, rischi e alternative scartate, così da rendere ogni scelta comprensibile, difendibile e priva di sorprese.</p>
+              <p className="text-sm leading-relaxed font-light text-gray-600">Operiamo senza provvigioni da cantieri, broker o fornitori e senza mandati di vendita: la nostra indipendenza è sostanziale, non dichiarata. <strong className="font-normal text-[#0F172A]">Non percepiamo compensi da terzi.</strong> Il nostro compenso — chiaro e concordato — matura solo dopo aver condiviso con voi come articolare il percorso, e riflette esclusivamente il lavoro consulenziale svolto. Ogni indicazione è il risultato di verifiche tecniche approfondite, confronto sistematico tra alternative, analisi di comparabili reali, esame di documentazione, storico manutentivo e fonti incrociate. Ogni raccomandazione è documentata, motivata punto per punto e orientata esclusivamente alla tutela del vostro interesse, con piena trasparenza su limiti, rischi e alternative scartate, così da rendere ogni scelta comprensibile, difendibile e priva di sorprese.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 mx-auto mb-5 rounded-full border border-[#D4AF37]/40 grid place-items-center text-[#D4AF37] font-luxury text-sm">03</div>
@@ -208,7 +208,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8 mt-12 text-center">
             <div>
               <p className="font-luxury text-[11px] uppercase tracking-[0.2em] text-[#D4AF37] mb-2">01 — Interesse del cliente prima di tutto</p>
-              <p className="text-[13px] leading-relaxed font-light text-gray-400">Come nelle firm più esigenti, il vostro interesse prevale sempre. Nessun incentivo da terzi, nessun conflitto.</p>
+              <p className="text-[13px] leading-relaxed font-light text-gray-400">Come nelle firm più esigenti, il vostro interesse prevale sempre. Nessuna provvigione da terzi; solo un compenso chiaro e concordato per il lavoro consulenziale.</p>
             </div>
             <div className="md:border-x md:border-white/10 md:px-6">
               <p className="font-luxury text-[11px] uppercase tracking-[0.2em] text-[#D4AF37] mb-2">02 — Rigore e verifica</p>
