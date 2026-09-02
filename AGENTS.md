@@ -29,3 +29,14 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - **Colori identici IT↔EN:** `YACHT #020817` + `ADVISOR #D4AF37` (Cinzel 23/29 tracking 0.40), `payoff #0F172A`, `navy #0F172A`, `oro #D4AF37`, `pearl #FDFCFB` — mai tutto blu o tutto oro in una lingua. `Footer` `YACHT ADVISOR #020817` uniforme.
 - **Verifica obbligatoria:** prima di `npm run build` fare audit `grep -n "YACHT\|text-\[\|tracking\|leading"` su IT vs EN e assicurare 1:1. Dopo build controllare `out/index.html` vs `out/en/index.html` con diff. Vietato pubblicare se IT≠EN per classi/layout.
 - **Esempio violazione corretta:** IT `YACHT #020817 + ADVISOR #D4AF37` vs EN tutto blu = **vietato** — uniformato a `YACHT #020817 + ADVISOR #D4AF37` in entrambe.
+- **Menu uniformità articoli:** `Navbar.tsx` IT `Premessa | Servizi | Metodo | Chi Siamo | Contatti` senza articoli (come EN `Premise | Services | Method | About | Contact`) — uniformità logica: o tutti con o tutti senza; scelto **senza** per minimalismo internazionale. Vietato `La Premessa / I Servizi / Il Metodo` misti.
+- **YACHT ADVISOR centrato equidistante:** `Navbar.tsx` YACHT/ADVISOR su due righe `23/29 tracking 0.40` centrato tra bussola sinistra e menu destra (`grid grid-cols-3`, bussola `w-11/14` 3D, YACHT/ADVISOR `flex-col items-center text-center`), payoff `10.5/11.5 tracking 0.44em` centrato.
+
+---
+
+# 📝 REGOLA SILLABAZIONE — MAI SPEZZARE PAROLE
+
+> **Scolpita 02/09/2026 su richiesta utente — vale per TUTTI gli agenti, per SEMPRE.**
+
+- **MAI spezzare parole a capo con trattino:** in `src/app/page.tsx:78` e `src/app/en/page.tsx:83` (La Premessa / Premise) e in OGNI altro blocco giustificato, usare `text-justify hyphens-none break-normal [hyphens:none] [word-break:normal] [overflow-wrap:normal]` — la parola intera va a capo, non si divide con `-`.
+- **Mantenere aspetto ordinato:** giustificato `text-justify [text-align:justify]` per bordo destro allineato, ma senza sillabazione. Ultimo paragrafo `Yacht Advisor nasce…` resta `text-center`.
