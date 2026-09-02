@@ -32,7 +32,8 @@ export default function Navbar() {
         <Link href={isEn ? "/en/about/" : "/chi-siamo/"} className="flex items-center gap-3 group shrink-0" aria-label="Yacht Advisor - Chi siamo">
           <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-11 h-11 md:w-14 md:h-14 opacity-95 group-hover:rotate-180 transition-transform duration-700 shrink-0 drop-shadow-[0_2px_8px_rgba(15,23,42,0.14)] [filter:drop-shadow(0_1px_3px_rgba(212,175,55,0.18))]" />
           <span className="flex flex-col items-center justify-center text-center leading-none">
-            <span className="font-luxury text-[23px] md:text-[29px] font-black tracking-[0.40em] text-[#020817] leading-none text-center">YACHT<span className="text-[#D4AF37]"> ADVISOR</span></span>
+            <span className="font-luxury text-[23px] md:text-[29px] font-bold tracking-[0.40em] text-[#020817] leading-none text-center">YACHT</span>
+            <span className="font-luxury text-[23px] md:text-[29px] font-bold tracking-[0.40em] text-[#D4AF37] leading-none text-center">ADVISOR</span>
             <span className="text-[10px] md:text-[11px] uppercase tracking-[0.40em] text-[#0F172A] mt-1 font-semibold leading-none text-center whitespace-nowrap">
               Your happiness is our job
             </span>
