@@ -34,13 +34,13 @@ export default function Navbar() {
           className="flex flex-col items-center text-center group"
           aria-label="Yacht Advisor - Chi siamo"
         >
-          <span className="flex items-center gap-3">
-            <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-14 h-14 md:w-16 md:h-16 opacity-90 group-hover:rotate-180 transition-transform duration-700" />
-            <span className="font-luxury text-[24px] md:text-[32px] font-black tracking-[0.42em] text-[#020817] leading-none">
+          <span className="flex items-center gap-3.5">
+            <img src="/yacht-advisor/rosa-venti.svg" alt="Rosa dei venti" className="w-11 h-11 md:w-14 md:h-14 opacity-90 group-hover:rotate-180 transition-transform duration-700 shrink-0" />
+            <span className="font-luxury text-[26px] md:text-[34px] font-black tracking-[0.42em] text-[#020817] leading-none flex items-center">
               YACHT<span className="text-[#D4AF37]"> ADVISOR</span>
             </span>
           </span>
-          <span className="text-[10px] md:text-[11px] uppercase tracking-[0.45em] text-[#0F172A] mt-2.5 font-semibold">
+          <span className="text-[10px] md:text-[11px] uppercase tracking-[0.45em] text-[#0F172A] mt-2 font-semibold leading-none">
             Your happiness is our job
           </span>
         </Link>
