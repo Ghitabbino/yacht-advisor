@@ -1,2 +1,2 @@
-:HL["/yacht-advisor/_next/static/chunks/0z5dph3cxys68.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"D8d0PWC-_y7iC_DOX0bj4"}
+:HL["/yacht-advisor/_next/static/chunks/41jy314qcdtgj.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"_DG9G28aoUuDJeJhKfQxI"}
