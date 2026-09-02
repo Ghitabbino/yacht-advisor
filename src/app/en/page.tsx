@@ -68,6 +68,18 @@ export default function EnHome() {
         </div>
       </section>
 
+      {/* RELIEF PROMISE — opening consulting line */}
+      <section className="py-10 md:py-14 bg-[#FDFCFB] border-y border-gray-100">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <p className="font-luxury text-[15px] md:text-[17px] leading-relaxed font-light text-[#0F172A] tracking-wide">
+            A yacht should lighten your life, not burden it. If <em className="not-italic font-normal text-[#0F172A]">looking after every aspect</em> — selection, crew, paperwork, maintenance, management — feels like weight, <strong className="font-normal text-[#0F172A]">we carry it for you</strong>.
+          </p>
+          <p className="mt-3 text-[13px] md:text-[14px] leading-relaxed font-light text-gray-500">
+            With rigour, discretion and tailored care. You keep only the pleasure of cruising.
+          </p>
+        </div>
+      </section>
+
       {/* PREMISE - unique owner concept */}
       <section id="premise" className="py-24 md:py-32 bg-white scroll-mt-20">
         <div className="max-w-4xl mx-auto px-6">

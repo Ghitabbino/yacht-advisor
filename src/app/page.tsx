@@ -63,6 +63,18 @@ export default function Home() {
         </div>
       </section>
 
+      {/* PROMESSA SOLLIEVO — frase di apertura consulenziale */}
+      <section className="py-10 md:py-14 bg-[#FDFCFB] border-y border-gray-100">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <p className="font-luxury text-[15px] md:text-[17px] leading-relaxed font-light text-[#0F172A] tracking-wide">
+            Uno yacht dovrebbe alleggerirti la vita, non appesantirla. Se <em className="not-italic font-normal text-[#0F172A]">occuparti di ogni aspetto</em> — scelta, equipaggio, burocrazia, manutenzione, gestione — rischia di diventare un peso, <strong className="font-normal text-[#0F172A]">lo portiamo noi</strong>.
+          </p>
+          <p className="mt-3 text-[13px] md:text-[14px] leading-relaxed font-light text-gray-500">
+            Con metodo, discrezione e cura sartoriale. A te resta solo il piacere di navigare.
+          </p>
+        </div>
+      </section>
+
       {/* LA PREMESSA - concept unico armatore */}
       <section id="la-premessa" className="py-24 md:py-32 bg-white scroll-mt-20">
         <div className="max-w-4xl mx-auto px-6">
