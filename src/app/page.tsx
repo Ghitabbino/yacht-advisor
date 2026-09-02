@@ -75,7 +75,7 @@ export default function Home() {
             <div className="w-16 h-px bg-[#D4AF37] mx-auto mt-8 mb-10" aria-hidden />
           </div>
 
-          <div className="space-y-6 text-[17px] leading-[1.85] font-light text-gray-600 max-w-3xl mx-auto">
+          <div className="space-y-6 text-[17px] leading-[1.85] font-light text-gray-600 max-w-3xl mx-auto text-justify hyphens-none break-normal [text-align:justify] [hyphens:none] [word-break:normal] [overflow-wrap:normal]">
             <p>
               L&apos;acquisto di uno yacht rappresenta un investimento significativo, con una vasta gamma di imbarcazioni disponibili sul mercato, ognuna caratterizzata da specifiche proprietà costruttive e finalità d&apos;uso.
             </p>
@@ -85,7 +85,7 @@ export default function Home() {
             <p>
               Altrettanto complessa si rivela la selezione dell&apos;equipaggio, un ambito spesso inedito per il nuovo armatore. Orientarsi in questo settore richiede tempo ed energia; d&apos;altronde, un reclutamento errato rischia di compromettere non solo la gestione della barca, ma l&apos;intera esperienza di vacanza a bordo del proprio yacht.
             </p>
-            <p className="text-[#0F172A] font-normal">
+            <p className="text-[#0F172A] font-normal text-center hyphens-none">
               Yacht Advisor nasce per colmare questa distanza: prima comprendiamo i vostri bisogni, poi indichiamo la soluzione su misura, con indipendenza, verifiche documentate e riservatezza — come <em>single integrated team</em> al vostro fianco, con rete globale e tutela fiduciaria. La nostra missione è la vostra piena soddisfazione.
             </p>
           </div>

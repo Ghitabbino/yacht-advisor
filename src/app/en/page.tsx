@@ -80,7 +80,7 @@ export default function EnHome() {
             <div className="w-16 h-px bg-[#D4AF37] mx-auto mt-8 mb-10" aria-hidden />
           </div>
 
-          <div className="space-y-6 text-[17px] leading-[1.85] font-light text-gray-600 max-w-3xl mx-auto">
+          <div className="space-y-6 text-[17px] leading-[1.85] font-light text-gray-600 max-w-3xl mx-auto text-justify hyphens-none break-normal [text-align:justify] [hyphens:none] [word-break:normal] [overflow-wrap:normal]">
             <p>
               Purchasing a yacht represents a significant investment, with a wide range of vessels available on the market, each characterised by specific construction features and intended use.
             </p>
@@ -90,7 +90,7 @@ export default function EnHome() {
             <p>
               Equally complex is the selection of the crew, an area often unfamiliar to the new owner. Finding one&apos;s way in this field requires time and energy; moreover, an ill-judged recruitment risks compromising not only the management of the vessel, but the entire holiday experience on board one&apos;s own yacht.
             </p>
-            <p className="text-[#0F172A] font-normal">
+            <p className="text-[#0F172A] font-normal text-center hyphens-none">
               Yacht Advisor was created to bridge this gap: first we understand your needs, then we indicate the tailored solution, with independence, documented verification and discretion — as a <em>single integrated team</em> alongside you, with global network and fiduciary protection. Our mission is your complete satisfaction.
             </p>
           </div>
