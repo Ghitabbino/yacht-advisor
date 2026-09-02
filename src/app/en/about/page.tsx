@@ -90,7 +90,7 @@ export default function Page() {
                     <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mb-1">Education</p>
                     <p className="text-gray-400 font-light">Master SADA — Marketing and Communication</p>
                     <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mt-3 mb-1">Languages</p>
-                    <p className="text-gray-400 font-light">IT native • EN professional • PT fluent • ES working (understands and speaks)</p>
+                    <p className="text-gray-400 font-light">IT native • EN professional • PT fluent • ES intermediate — comprehension and operational conversation</p>
                   </div>
                 </div>
                 <p className="mt-4 text-[11px] uppercase tracking-[0.2em] text-[#D4AF37]/80">Name & photo on request — base Genoa / Palma</p>
@@ -114,7 +114,7 @@ export default function Page() {
                   </div>
                   <div>
                     <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mb-1">Languages</p>
-                    <p className="text-gray-400 font-light">IT native • EN excellent • FR near-native, indistinguishable pronunciation (French mother)</p>
+                    <p className="text-gray-400 font-light">IT native • EN excellent • FR fluent — French mother</p>
                     <p className="text-[11px] uppercase tracking-[0.18em] text-[#D4AF37]/80 mt-4">Base Genoa / Palma — on request</p>
                   </div>
                 </div>
