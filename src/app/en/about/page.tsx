@@ -90,7 +90,7 @@ export default function Page() {
                     <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mb-1">Education</p>
                     <p className="text-gray-400 font-light">Master SADA — Marketing and Communication</p>
                     <p className="text-[#D4AF37] text-[11px] uppercase tracking-[0.18em] mt-3 mb-1">Languages</p>
-                    <p className="text-gray-400 font-light">IT native • EN professional • PT fluent</p>
+                    <p className="text-gray-400 font-light">IT native • EN professional • PT fluent • ES working (understands and speaks)</p>
                   </div>
                 </div>
                 <p className="mt-4 text-[11px] uppercase tracking-[0.2em] text-[#D4AF37]/80">Name & photo on request — base Genoa / Palma</p>
