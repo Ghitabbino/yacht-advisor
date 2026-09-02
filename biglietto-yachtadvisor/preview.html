@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biglietto YachtAdvisor — Preview 85×85</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#0F172A;--gold:#D4AF37;--pearl:#FDFCFB;--gold-soft:#C9A86A;}
+  *{box-sizing:border-box}
+  body{margin:0;background:#E8E9EC;font-family:'Montserrat',sans-serif;color:var(--navy);}
+  h1{font-family:'Cinzel',serif;letter-spacing:.35em;font-size:18px;margin:0}
+  .wrap{max-width:1100px;margin:32px auto;padding:0 20px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start}
+  @media(max-width:860px){.grid{grid-template-columns:1fr}}
+  .card{width:340px;height:340px;position:relative;border-radius:16px;overflow:hidden;box-shadow:0 18px 50px rgba(2,8,23,.28),0 2px 10px rgba(2,8,23,.12);margin:0 auto}
+  .card-pearl{background:var(--pearl);border:1px solid #E6E1D8}
+  .card-navy{background:var(--navy);border:1px solid #0B1220}
+  .label{font-size:10px;letter-spacing:.35em;text-transform:uppercase;color:#7A7F8A;margin:10px 0 8px;text-align:center}
+  .front-rosa{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);width:224px;height:224px;filter:drop-shadow(0 1px 0 rgba(212,175,55,.35))}
+  .front-rosa svg{width:100%;height:100%}
+  .front-text{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);text-align:center;width:300px}
+  .front-brand{font-family:'Cinzel',serif;font-weight:700;letter-spacing:.42em;font-size:12px;color:var(--navy);line-height:1}
+  .front-payoff{font-weight:200;letter-spacing:.28em;text-transform:uppercase;font-size:6.5px;color:#0F172A;opacity:.62;margin-top:7px}
+  .front-dot{width:3px;height:3px;background:var(--gold);border-radius:50%;margin:7px auto 0}
+  .back-inner{position:absolute;inset:36px;display:flex;flex-direction:column;justify-content:space-between}
+  .back-name{font-family:'Cinzel',serif;font-size:16px;letter-spacing:.12em;color:var(--pearl);margin:0;line-height:1.1}
+  .back-role{font-weight:200;letter-spacing:.22em;text-transform:uppercase;font-size:7.5px;color:var(--gold);margin-top:6px}
+  .back-contacts{font-weight:300;font-size:7.2px;line-height:1.9;letter-spacing:.04em;color:rgba(253,252,251,.92)}
+  .back-contacts a{color:inherit;text-decoration:none;border-bottom:1px solid rgba(212,175,55,.35);padding-bottom:1px}
+  .back-addr{font-size:6px;letter-spacing:.14em;text-transform:uppercase;color:rgba(253,252,251,.55);margin-top:14px}
+  .qr{position:absolute;right:0;bottom:0;width:34px;height:34px;background:var(--pearl);border-radius:3px;display:grid;place-items:center;font-size:5px;letter-spacing:.2em;color:var(--navy);font-weight:700;opacity:.9}
+  .qr::before{content:"QR";position:absolute;font-size:6px;letter-spacing:.15em}
+  .qr::after{content:"";position:absolute;inset:3px;border:1.5px solid var(--navy);border-radius:1px;opacity:.15}
+  .note{max-width:720px;margin:28px auto 0;background:white;border-radius:12px;padding:18px 20px;font-size:12.5px;line-height:1.7;color:#2F3542;border:1px solid #E5E7EB}
+  .note b{color:var(--navy)}
+  .scale{display:flex;gap:10px;justify-content:center;margin:18px 0 0;flex-wrap:wrap}
+  .pill{font-size:10px;letter-spacing:.18em;text-transform:uppercase;background:white;border:1px solid #D8DCE2;border-radius:999px;padding:7px 12px}
+  .ruler{height:2px;background:repeating-linear-gradient(90deg,#0F172A 0 10px,transparent 10px 20px);margin:6px auto 0;max-width:340px;opacity:.25}
+  .caption{font-size:11px;color:#5A6474;text-align:center;margin-top:6px;letter-spacing:.04em}
+  @media print{body{background:white}.note,.caption, h1{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div style="text-align:center;margin-bottom:18px">
+    <h1>YACHT ADVISOR — BIGLIETTO 85×85</h1>
+    <div style="font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#6B7280;margin-top:6px">Concept “Bussola a secco” — anteprima 1:1.2 — stampa: Materica Craft 600gsm triplex + soft-touch + foil 871 + deboss</div>
+    <div class="ruler"></div>
+    <div class="caption">R4 su carta 85×85 — la riga è 85mm in stampa reale</div>
+  </div>
+
+  <div class="grid">
+    <!-- FRONTE -->
+    <div>
+      <div class="label">Fronte — Marca (pearl, foil/deboss)</div>
+      <div class="card card-pearl">
+        <div class="front-rosa">
+          <!-- Rosa: uso file reale ma con filtro oro satinato per foil -->
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="100" cy="100" r="92" fill="none" stroke="#0F172A" stroke-width="1.1" opacity=".9"/>
+            <circle cx="100" cy="100" r="88" fill="none" stroke="#D4AF37" stroke-width=".6" opacity=".45"/>
+            <g opacity=".92">
+              <path d="M100 14 L106 42 L100 52 L94 42 Z" fill="#D4AF37" stroke="#0F172A" stroke-width=".6"/>
+              <path d="M100 34 C98 38 94 40 94 44 C94 47 97 49 100 49 C103 49 106 47 106 44 C106 40 102 38 100 34 Z" fill="#0F172A" stroke="#D4AF37" stroke-width=".5"/>
+              <path d="M100 186 L94 158 L100 148 L106 158 Z" fill="#0F172A" stroke="#D4AF37" stroke-width=".55"/>
+              <path d="M186 100 L158 94 L148 100 L158 106 Z" fill="#0F172A" stroke="#D4AF37" stroke-width=".55"/>
+              <path d="M14 100 L42 106 L52 100 L42 94 Z" fill="#0F172A" stroke="#D4AF37" stroke-width=".55"/>
+              <g fill="#0F172A" stroke="#D4AF37" stroke-width=".5"><path d="M158 42 L145 58 L138 64 L152 52 Z"/><path d="M158 158 L152 148 L138 136 L145 142 Z"/><path d="M42 158 L55 142 L62 136 L48 148 Z"/><path d="M42 42 L48 52 L62 64 L55 58 Z"/></g>
+              <g fill="none" stroke="#0F172A" stroke-width=".65" opacity=".85">
+                <path d="M127 28 L122 46 L118 52 L114 46 Z" fill="#FDFCFB"/><path d="M172 73 L154 78 L148 82 L154 86 Z" fill="#FDFCFB"/><path d="M172 127 L154 122 L148 118 L154 114 Z" fill="#FDFCFB"/><path d="M127 172 L122 154 L118 148 L114 154 Z" fill="#FDFCFB"/><path d="M73 172 L78 154 L82 148 L86 154 Z" fill="#FDFCFB"/><path d="M28 127 L46 122 L52 118 L46 114 Z" fill="#FDFCFB"/><path d="M28 73 L46 78 L52 82 L46 86 Z" fill="#FDFCFB"/><path d="M73 28 L78 46 L82 52 L86 46 Z" fill="#FDFCFB"/>
+              </g>
+              <g fill="#0F172A" stroke="#D4AF37" stroke-width=".55"><polygon points="100,68 105,88 100,100 95,88"/><polygon points="132,100 112,105 100,100 112,95"/><polygon points="100,132 95,112 100,100 105,112"/><polygon points="68,100 88,95 100,100 88,105"/><polygon points="122,78 112,88 100,100 112,88" fill="#D4AF37" opacity=".9"/><polygon points="122,122 112,112 100,100 112,112" fill="#D4AF37" opacity=".9"/><polygon points="78,122 88,112 100,100 88,112" fill="#D4AF37" opacity=".9"/><polygon points="78,78 88,88 100,100 88,88" fill="#D4AF37" opacity=".9"/></g>
+              <circle cx="100" cy="100" r="7" fill="#D4AF37" stroke="#0F172A" stroke-width=".7"/><circle cx="100" cy="100" r="2.4" fill="#FDFCFB"/>
+            </g>
+            <g font-family="Cinzel, serif" font-weight="700" text-anchor="middle"><text x="100" y="11" font-size="13" fill="#0F172A">N</text><text x="100" y="196" font-size="10" fill="#0F172A">S</text><text x="190" y="104" font-size="10" fill="#0F172A">E</text><text x="10" y="104" font-size="10" fill="#0F172A">W</text></g>
+          </svg>
+        </div>
+        <div class="front-text">
+          <div class="front-brand">YACHT ADVISOR</div>
+          <div class="front-payoff">Your happiness is our job</div>
+          <div class="front-dot"></div>
+        </div>
+      </div>
+      <div class="caption">56mm foil + deboss 0.3mm — nessun inchiostro oltre bussola e tipografia</div>
+    </div>
+
+    <!-- RETRO -->
+    <div>
+      <div class="label">Retro — Persona (navy, 2 Pantone)</div>
+      <div class="card card-navy">
+        <div class="back-inner">
+          <div>
+            <div class="back-name">Giovanni Natale</div>
+            <div class="back-role">Senior Advisor · Founding</div>
+          </div>
+          <div>
+            <div class="back-contacts">
+              +39 324 7962468<br>
+              <a href="mailto:giovanni.natale@yachtadvisor.it">giovanni.natale@yachtadvisor.it</a><br>
+              <a href="https://www.yachtadvisor.it">www.yachtadvisor.it</a>
+            </div>
+            <div class="back-addr">Via Galantina 2A · 02040 Poggio Catino (RI)</div>
+          </div>
+          <div class="qr" title="QR 8mm foil oro → yachtadvisor.it/chi-siamo"></div>
+        </div>
+      </div>
+      <div class="caption">Navy Pantone 2768C + oro 871C — bianco coprente su navy — QR 8×8 foil discreto</div>
+    </div>
+  </div>
+
+  <div class="scale">
+    <span class="pill">85×85 · R4</span>
+    <span class="pill">600gsm triplex anima nera</span>
+    <span class="pill">soft-touch 15µ</span>
+    <span class="pill">Foil Kurz 42312 satinato</span>
+    <span class="pill">Deboss 0.30mm</span>
+    <span class="pill">Bordo oro 0.6mm</span>
+  </div>
+
+  <div class="note">
+    <b>Perché funziona con YachtAdvisor:</b> stesso rosa-venti.svg e tracking <code>0.42em</code> del sito — riconoscibilità digitale→fisica immediata. Quadrato = memoria tattile (si trova senza guardare), peso 21g = qualità percepita prima di leggere. Vuoto generoso = riservatezza, non bisogno di riempire. Oro satinato (non specchiato) = ottone di bordo, non gioielleria. <br><br>
+    <b>Varianti:</b> <i>Corporate</i> (fronte identico, retro solo <code>info@yachtadvisor.it · www.yachtadvisor.it</code>) e <i>Stealth</i> (solo deboss senza foil, per consegna ultra-riservata).<br>
+    <b>Da validare in tipografia:</b> prova con Materica Craft vs Colorplan + 2 pressioni deboss — la luce radente deve far ombra, non buco.
+  </div>
+
+  <div style="text-align:center;margin-top:18px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6B7280">
+    Apri a 100% per resa 1:1.2 — stampa test su A4 a 100% per verifica leggibilità a 40cm
+  </div>
+</div>
+</body>
+</html>
